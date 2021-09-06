@@ -37,7 +37,7 @@ function zeroFilled() {
      j.push('0'+ i);}
     else if (getLength(i)===loopDigit-2) {
       j.push('00'+ i);}
-    else if (getLength(i)===loopDigit-2) {
+    else if (getLength(i)===loopDigit-3) {
       j.push('000'+ i);}
   }
   return j;
