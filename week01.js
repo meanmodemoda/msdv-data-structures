@@ -44,7 +44,8 @@ function zeroFilled() {
   }
   
 let fileNum=zeroFilled();
-//create a loop to loop through 10 files
+
+//create a loop to loop through files
 
 (async () => {
 	for (var i=1; i<=loopNum; i++) {
