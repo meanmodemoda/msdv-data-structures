@@ -1,10 +1,14 @@
+//--------Class Notes ---------
 //touch create a new file
 //linux got module quick link
 //fs filesystems is pre-installed in Node
 //js does not execute/complete the code the way one writes
+//require is a method built into node to load libraries/packages
+//--------Class Notes ends -------
+
 // npm install got
 // mkdir data
-//require is a method built into node to load libraries/packages
+
 
 const fs = require('fs');
 const got = require('got');
@@ -19,8 +23,9 @@ function getLength(num) {
 //set a new variable that counts the digit of loopNum
 let loopDigit=getLength(loopNum);
 
-//create a function that create a file number that fills in 0s depending on the digit of the file number;
-//this function is still not very dynamic, I will need to edit the function further if the number of files get bigger.
+//create a function that creates a file number array in which each file number has fill-in 0s when needed;
+//This function is still not very dynamic. Currently it can automate 4 digit, so if we need to loop through 1,000 files, it should work.
+//I will need to edit the function further if the number of files gets bigger and I'd like to know how to dynamically do that.
 
 function zeroFilled() {
   let j=[];
