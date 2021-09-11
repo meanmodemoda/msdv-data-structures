@@ -5,7 +5,7 @@ Learn to use `ceerio` to extract and save content. Extract addresses only from a
 <br>
 ### Assignment Details
 
-Observe HTML element structure, use appropriate selectors to extract address content. Use various string methods to clean up content and save to a JSONs file. 
+Observe HTML element structure, use appropriate selectors to extract address content. Use various string methods to clean up content and save to a JSON file. 
 <br>
 <br>
 ### Process
