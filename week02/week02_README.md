@@ -2,24 +2,30 @@
 
 Learn to use `ceerio` to extract and save content. Extract addresses only from aa-m01.txt and save the addresses to a separate file. 
 
-
+<br>
+<br>
 ### Assignment Details
 
 Observe HTML element structure, use appropriate selectors to extract address content. Use various string methods to clean up content and save to a JSONs file. 
+<br>
+<br>
 
 ### Process
 
 **Step 1**: Identify smallest extractable element, in this case a block of content within a `td`, using "Copy JS path" function in DevTools. (Credit: Jeremy Odell)
-
-- **Observation 1**: the difference in path between addresses is the last `tr` element, which I can use a loop-ish method to represent `tr:nth-child(n+1)`
-
-1st address block path: "body > center > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(1) > td:nth-child(1)"
-2nd address block path: "body > center > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(2) > td:nth-child(1)"
-....
-5th address block path: "body > center > table > tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(5) > td:nth-child(1)"
-" 
 <br>
-- **Observation 2**: can not easily extract texts between `<br>`, therefore, I need to preserve the content in HTML using `html()` first and use `<br>` as a splitter.
+
+**Observation 1**: the difference in path between addresses is the last `tr` element, which I can use a loop-ish method to represent `tr:nth-child(n+1)`
+
+```
+    1st address block path: "tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(1) > td:nth-child(1)"
+    2nd address block path: "tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(2) > td:nth-child(1)"
+    ....
+    5th address block path: "tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(5) > td:nth-child(1)"
+    
+```
+<br>
+**Observation 2**: can not easily extract texts between `<br>`, therefore, I need to preserve the content in HTML using `html()` first and use `<br>` as a splitter.
 
 I used the following block of code to get an array of raw addresses.
 
@@ -36,15 +42,15 @@ $('tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody 
 
 **Step 2**: Remove miscellaneous text
 
-I noticed there were still some cleanup work need to be done with these two addresses. 
+After extracting the raw addresses, I noticed there was still some cleanup work need to be done with these two addresses. 
 
 
 
-    20 Cardinal Hayes Place,22 Barclay Street (Basement),
-    22 Barclay Street- basement chapel,
+      20 Cardinal Hayes Place,22 Barclay Street (Basement),
+      22 Barclay Street- basement chapel,
 
 
-I created a function to check if an address contains `"Street"` keyword, if so return the address before and including `"Street"`.
+I created a function to check if an address contains the `"Street"` keyword, if so return the address before and including `"Street"`.
 
 
 ```javascript
