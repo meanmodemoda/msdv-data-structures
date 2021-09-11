@@ -1,7 +1,6 @@
 ## Summary
 
 Learn to use `ceerio` to extract and save content. Extract addresses only from aa-m01.txt and save the addresses to a separate file. 
-
 <br>
 <br>
 ### Assignment Details
@@ -9,7 +8,6 @@ Learn to use `ceerio` to extract and save content. Extract addresses only from a
 Observe HTML element structure, use appropriate selectors to extract address content. Use various string methods to clean up content and save to a JSONs file. 
 <br>
 <br>
-
 ### Process
 
 **Step 1**: Identify smallest extractable element, in this case a block of content within a `td`, using "Copy JS path" function in DevTools. (Credit: Jeremy Odell)
@@ -24,7 +22,6 @@ Observe HTML element structure, use appropriate selectors to extract address con
     5th address block path: "tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(5) > td:nth-child(1)"
     
 ```
-<br>
 **Observation 2**: can not easily extract texts between `<br>`, therefore, I need to preserve the content in HTML using `html()` first and use `<br>` as a splitter.
 
 I used the following block of code to get an array of raw addresses.
@@ -50,7 +47,7 @@ After extracting the raw addresses, I noticed there was still some cleanup work 
       22 Barclay Street- basement chapel,
 
 
-I created a function to check if an address contains the `"Street"` keyword, if so return the address before and including `"Street"`.
+I created a function to check if an address contains the `"Street"` keyword, if so return the text up to `"Street"`.
 
 
 ```javascript
@@ -77,5 +74,5 @@ fs.writeFileSync('../data/aa-m01-address.json',  JSON.stringify(data), function(
 
 ### Reflection
 
-1. I spent a lot of time iternating my last function of returning an address before and including `"Street"`. In the end, I'm pretty happy that I was able to use `tenary operator` and the `array.map()` method I learned during the summer workshop. 
+1. I spent a lot of time iternating my last function of returning an address up to `"Street"`. In the end, I'm pretty happy that I was able to use `tenary operator` and the `array.map()` method I learned during the summer workshop. 
 2. I think there is another way selecting the address `td` block targeting `attribute` but I chose to experiement with JS path.
