@@ -1,6 +1,6 @@
 ## Summary
 
-Learn to use ceerio to extract and save content. Extract addresses only from aa-m01.txt and save the addresses to a separte file. 
+Learn to use `ceerio` to extract and save content. Extract addresses only from aa-m01.txt and save the addresses to a separate file. 
 
 
 ### Assignment Details
