@@ -22,7 +22,7 @@ Observe HTML element structure, use appropriate selectors to extract address con
     5th address block path: "tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(5) > td:nth-child(1)"
     
 ```
-**Observation 2**: can not easily extract texts between `<br>`, therefore, I need to preserve the content in HTML using `html()` first and use `<br>` as a splitter.
+**Observation 2**: I can not easily extract texts between `<br>` if I convert the content to `text`, therefore, I need to preserve the content in HTML using `html()` first and use `<br>` as a splitter.
 
 I used the following block of code to get an array of raw addresses.
 
