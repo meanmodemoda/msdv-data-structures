@@ -29,7 +29,7 @@ let loopDigit=getLength(loopNum);
 
 function zeroFilled() {
   let j=[];
-  for (var i=0; i<=loopNum; i++) {
+  for (let i=0; i<=loopNum; i++) {
     
     if (getLength(i)===loopDigit){
       j.push(i);}
@@ -39,6 +39,8 @@ function zeroFilled() {
       j.push('00'+ i);}
     else if (getLength(i)===loopDigit-3) {
       j.push('000'+ i);}
+    else { break; 
+    console.log('Edit function!');}
   }
   return j;
   }
