@@ -13,7 +13,7 @@ Observe HTML element structure, use appropriate selectors to extract address con
 **Step 1**: Identify smallest extractable element, in this case a block of content within a `td`, using "Copy JS path" function in DevTools. (Credit: Jeremy Odell)
 <br>
 
-**Observation 1**: the difference in path between addresses is the last `tr` element, which I can use a loop-ish method to represent `tr:nth-child(n+1)`
+**Observation 1**: The difference in path between addresses is the last `tr` element, which I can use a loop-ish method to represent `tr:nth-child(n+1)`
 
 ```
     1st address block path: "tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody > tr:nth-child(1) > td:nth-child(1)"
