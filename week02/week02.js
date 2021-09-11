@@ -24,7 +24,7 @@ $('tbody > tr > td > table > tbody > tr:nth-child(2) > td > div > table > tbody 
     addPrep.push($(elem).html().split('<br>')[2].trim().split(',')[0])
 });
 
-//after observing the output, I noticed there are some miscellaneous texts behind certain addresses need to be cleaned up (i.e., some address ended like "Street (Basement)".
+//after observing the output, I noticed there are some miscellaneous text behind certain addresses need to be cleaned up (i.e., one address ended like "Street (Basement)".
 //The addSave function removes unecessary text after "Street".
 
 
