@@ -1,6 +1,6 @@
 ## Summary
 
-Learn to use `ceerio` to extract and save content. Extract addresses only from aa-m01.txt and save the addresses to a separate file. 
+Learn to use `ceerio` to extract and save content. Extract addresses only from [aa-m01.txt](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m01.txt) saved from [Assignment 1](https://github.com/meanmodemoda/msdv-data-structures/tree/master/week01) and save the addresses to a separate file. 
 <br>
 <br>
 ### Assignment Details
