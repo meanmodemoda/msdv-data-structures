@@ -57,7 +57,7 @@ let addSave=addPrep.map((item) => {
 
 ```
 
-**Step 3**:  Create an empty JSON object and write the cleaned up addresses to a JSON file using code I found online.
+**Step 3**:  Create an empty JSON object called `data` with an `address` array property, and write the cleaned up addresses to this JSON file using code I found online.
 
 ```javascript
 var data ={};
