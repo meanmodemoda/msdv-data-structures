@@ -5,7 +5,7 @@ Learn to use `ceerio` to extract and save content. Extract addresses only from [
 <br>
 ### Assignment Details
 
-Observe HTML element structure, use appropriate selectors to extract address content. Use various string methods to clean up content and save to a JSON file. Organize data into a mixture of Objects and Arrays that can be [‘parsed’ and ‘stringified’](https://nodejs.org/en/knowledge/javascript-conventions/what-is-json/) as [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
+Create [a free account with Texas A&M GeoServices](https://geoservices.tamu.edu/Signup/)
 <br>
 <br>
 ### Process
