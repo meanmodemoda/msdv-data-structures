@@ -71,6 +71,7 @@ Based on the required structure of the final output, I created a loop to fill in
 3. Why my array's object keys have quotation marks? Does it matter?
 4. I played around with creating an `object constructor` but later on deemed it was not necessary. But when will it be neccessary? 
 
+
 For 2.
 
 (node:858) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5){ streetAddress: '49 Fulton Street',
@@ -79,3 +80,7 @@ For 2.
   apikey: undefined,
   format: 'json',
   version: '4.01' }
+  
+My understanding of the starter code
+
+<img src="/images/week03_startercode_diagram.jpg" width="600" alt="starter code diagram">
