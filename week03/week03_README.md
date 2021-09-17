@@ -1,6 +1,6 @@
 ## Summary
 
-Learn to use API to query and return data. Extract the coordinates (`lat`,`lng`) of addresses saved in [aa-m01-address.json](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m01-address.json) from [Weekly Assignment 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week02/week02.js) from [Texas A&M Geoservices Geocoding APIs](http://geoservices.tamu.edu/Services/Geocode/WebService/). 
+Learn to use API to query, return and extract data. Extract the coordinates (`lat`,`lng`) of addresses saved in [aa-m01-address.json](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m01-address.json) from [Weekly Assignment 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week02/week02.js) from [Texas A&M Geoservices Geocoding APIs](http://geoservices.tamu.edu/Services/Geocode/WebService/). 
 <br />
 
 ### Assignment Details
