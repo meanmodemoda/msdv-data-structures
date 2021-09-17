@@ -37,7 +37,7 @@ After extracting the raw addresses, I noticed the format was modified during the
 
 To update the addresses to the final output format, I added a function `toTitleCase()` using readily available code block online and called the function to change the address to title case up to before ` New York NY`.
 ```js
-    toTitleCase(meetingsData[i]["InputAddress"]["StreetAddress"]
+    toTitleCase(meetingsData[i]["InputAddress"]["StreetAddress"])
 ```
 Next, I applied some string methods to remove ` New York NY` and add back `, New York, NY`.
 ```js
