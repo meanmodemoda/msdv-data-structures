@@ -14,7 +14,6 @@ Only output an array that looks like the following and save to a JSON file.
   { address: '2 W 13th St, New York, NY', latLong: { lat: 40.7353297, lng: -73.99447889999999 } } 
 ]
 ```
-<br />
 
 ### Process
 
