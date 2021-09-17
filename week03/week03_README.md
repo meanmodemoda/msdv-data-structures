@@ -19,7 +19,7 @@ Only output an array that looks like the following and save to a JSON file.
 
 **Step 1 - Preparation**: 
 
-* Install dependencies: `env` and `async`
+* Install dependencies: `dotenv`, `querystring` and `async`
 * Create `environment variable` for `API_KEY` , update `gitignore` and double check on github to make sure neither `.env` or `API_KEY` is exposed.
 * Test out starter code, observe the structure of the `meetingsData` output, and identify the paths to extract `address`, `lat`, and `lng` as follows.
 
