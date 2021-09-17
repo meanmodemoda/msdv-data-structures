@@ -68,4 +68,6 @@ Based on the required structure of the final output, I created a loop to fill in
 ### Reflection
 
 1. I noticed the coordinates' digits/decimal points were truncated in the API query return.
-2. I played around with creating an `object constructor` but later on deemed it was not necessary.  
+2. How to access `.env` from a different directory? Why I have to put `.env` in root directory to make `gitignore` work?
+3. Why my array's object keys have quotation marks? Does it matter?
+4. I played around with creating an `object constructor` but later on deemed it was not necessary.  
