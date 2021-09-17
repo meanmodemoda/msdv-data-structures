@@ -61,25 +61,16 @@ Based on the required structure of the final output, I created a loop to fill in
 
 ```
 
-**Step 4 :  Write the `addressUpdate` array into a JSON file.**
+**Step 4 :  Write the `addressUpdate` array into a JSON file**
 
 
 ### Reflections
 
-1. I noticed the coordinates' digits/decimal points were truncated in the API query return.
-2. How to access `.env` from a different directory? Why I have to put `.env` in root directory to make `gitignore` work?
-3. Why my array's object keys have quotation marks? Does it matter?
-4. I played around with creating an `object constructor` but later on deemed it was not necessary. But when will it be neccessary? 
+1. I noticed the coordinates' digits/decimal points were truncated in the API query return. (Aaron: JavaScript sometimes tries to format when it can but there is a way to turn it off.)
+2. Try to put `.env` in the root directory. You can put a separate file in a sub-category in `gitignore`?
+3. The reason why the output array's object keys have quotation marks is the file is stringified and not real JSON. Once it's JASON.parsed, the quotation marks will not appear. 
+4. I played around with creating an `object constructor` but later on deemed it was not necessary. But when will it be neccessary? (Save this question for later)
 
-
-For 2.
-
-(node:858) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5){ streetAddress: '49 Fulton Street',
-  city: 'New York',
-  state: 'NY',
-  apikey: undefined,
-  format: 'json',
-  version: '4.01' }
   
 My understanding of the starter code
 
