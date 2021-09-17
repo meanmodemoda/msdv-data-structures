@@ -1,6 +1,6 @@
 ## Summary
 
-Learn to use API to query and return data. Extract the coordinates (`lat`,`lng`) of addresses saved in [aa-m01-address.json] from Weekly Assignment 2 from [Texas A&M Geoservices Geocoding APIs](http://geoservices.tamu.edu/Services/Geocode/WebService/). 
+Learn to use API to query and return data. Extract the coordinates (`lat`,`lng`) of addresses saved in [aa-m01-address.json](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m01-address.json) from [Weekly Assignment 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week02/week02.js) from [Texas A&M Geoservices Geocoding APIs](http://geoservices.tamu.edu/Services/Geocode/WebService/). 
 <br />
 
 ### Assignment Details
@@ -70,4 +70,4 @@ Based on the required structure of the final output, I created a loop to fill in
 1. I noticed the coordinates' digits/decimal points were truncated in the API query return.
 2. How to access `.env` from a different directory? Why I have to put `.env` in root directory to make `gitignore` work?
 3. Why my array's object keys have quotation marks? Does it matter?
-4. I played around with creating an `object constructor` but later on deemed it was not necessary.  
+4. I played around with creating an `object constructor` but later on deemed it was not necessary. But when will it be neccessary? 
