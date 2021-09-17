@@ -1,17 +1,14 @@
 ## Summary
 
 Learn to use `ceerio` to extract and save content. Extract addresses only from [aa-m01.txt](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m01.txt) saved from [Assignment 1](https://github.com/meanmodemoda/msdv-data-structures/tree/master/week01) and save the addresses to a separate file. 
-<br>
-<br>
+
 ### Assignment Details
 
 Observe HTML element structure, use appropriate selectors to extract address content. Use various string methods to clean up content and save to a JSON file. Organize data into a mixture of Objects and Arrays that can be [‘parsed’ and ‘stringified’](https://nodejs.org/en/knowledge/javascript-conventions/what-is-json/) as [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON).
-<br>
-<br>
+
 ### Process
 
 **Step 1**: Identify smallest extractable element, in this case a block of content within a `td`, using "Copy JS path" function in DevTools. (Credit: Jeremy Odell)
-<br>
 
 **Observation 1**: The difference in path between addresses is the last `tr` element, which I can use a loop-ish method to represent `tr:nth-child(n+1)`
 

@@ -32,13 +32,17 @@ let addSave=addPrep.map((item) => {
   return (item.includes('Street')? item.substring(0,item.indexOf('Street')+6) : item);
 })
 
-
+//below code was revised but kept for future reference
 //create json file and push addSave to json file and save json file locally
-var data ={};
-data.address = [];
-data.address.push(addSave);
+// var data ={};
+// data.address = [];
+// data.address.push(addSave);
 
-fs.writeFileSync('/home/ec2-user/environment/data/aa-m01-address.json',  JSON.stringify(data), function(err) {
+console.log(addSave);
+
+//write into a json file that is stringified for json compliance
+
+fs.writeFileSync('/home/ec2-user/environment/data/aa-m01-address.json',  JSON.stringify(addSave), function(err) {
     if (err) throw err;
     console.log('complete');
     }
