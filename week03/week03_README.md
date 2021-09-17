@@ -64,7 +64,7 @@ Based on the required structure of the final output, I created a loop to fill in
 **Step 4 :  Write the `addressUpdate` array into a JSON file.**
 
 
-### Reflection
+### Reflections
 
 1. I noticed the coordinates' digits/decimal points were truncated in the API query return.
 2. How to access `.env` from a different directory? Why I have to put `.env` in root directory to make `gitignore` work?
