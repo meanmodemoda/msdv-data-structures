@@ -70,3 +70,12 @@ Based on the required structure of the final output, I created a loop to fill in
 2. How to access `.env` from a different directory? Why I have to put `.env` in root directory to make `gitignore` work?
 3. Why my array's object keys have quotation marks? Does it matter?
 4. I played around with creating an `object constructor` but later on deemed it was not necessary. But when will it be neccessary? 
+
+For 2.
+
+(node:858) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5){ streetAddress: '49 Fulton Street',
+  city: 'New York',
+  state: 'NY',
+  apikey: undefined,
+  format: 'json',
+  version: '4.01' }
