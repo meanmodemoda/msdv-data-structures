@@ -63,7 +63,7 @@ console.log(query);
     
 //1.create an empty array `addressUpdate`
 //2.loop through meetingsData array and locate `StreetAddress`, `Latitude`,`Longtitude`
-//3.noticed the `StreetAddress` returned have 2 formatting issues: a) texts are all caps b) commas are removed
+//3.noticed the `StreetAddress` returned have 2 formatting issues: a) addresses are all caps b) commas are removed
 //4.clean up formatting by applying function `toTitleCase` defined earlier as well as other string methods
 //5.write `StreetAddress`, `Latitude`,`Longtitude` into objects of the `addressUpdate` array
 
