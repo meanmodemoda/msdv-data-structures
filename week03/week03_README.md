@@ -63,11 +63,12 @@ Based on the required structure of the final output, I created a loop to fill in
 
 **Step 4 :  Write the `addressUpdate` array into a JSON file**
 
+A stringified [JSON file](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m10-address-coordinates.json) was saved. I also created a [prettified version](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/jsonprettified.json) for eash reference. 
 
 ### Reflections
 
 1. I noticed the coordinates' digits/decimal points were truncated in the API query return. (Aaron: JavaScript sometimes tries to format when it can but there is a way to turn it off.)
-2. Try to put `.env` in the root directory. You can put a separate file in a sub-category in `gitignore`?
+2. Try to put `.env` in the root directory. Can you put a separate file in a sub-directory in `gitignore`?
 3. The reason why the output array's object keys have quotation marks is the file is stringified and not real JSON. Once it's JASON.parsed, the quotation marks will not appear. 
 4. I played around with creating an `object constructor` but later on deemed it was not necessary. But when will it be neccessary? (Save this question for later)
 
