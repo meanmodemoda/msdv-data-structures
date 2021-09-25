@@ -15,7 +15,8 @@ Populate dummy data tables with ALL the data from the first three rows of the AA
 **Schema Design**:
 
 
-<img src="sql_diagram.jpg" width="600" alt="schema design diagram">
+<img src="./sql_diagram.png" width="600" alt="schema design diagram">
+
 One thing I'm not entirely sure is the many-to-many relationship between `meeting` table and `special_interest` table. To represent this relationship in a SQL database, one has to create redundency in the `special_interest` table where multiple special interests can be associated with one `meeting_id` and one `meeting_id` can be associated with multiple special interests. I almost want the `special_interest` value to exist in an array format and wonder if a NoSQL database makes more sense here. 
 
 
