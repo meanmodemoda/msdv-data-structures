@@ -9,7 +9,7 @@ Populate dummy data tables with ALL the data from the first three rows of the AA
 **Decisions**: 
 
 1. The AA Meeting data is relatively static and small scale. However, I still chose to normalize the data to reduce redundency and most importantly preserve data integrity as we have observed the original data has huge data integrity issues. 
-2. The data structure that comes out of the database should be in JSON format that allows nested objects and arrays. The JSON format provides flexiblity in multi-dimensional user search and filtering. One example would be - one meeting can be tagged with an array of special interests [`young`,`queer`] or [`senior`,`korean-speaking`,`cancer survivor`]. If the data structure is in table format, it will force the meeting to have only one special interest option.
+2. The data structure that comes out of the database should be in JSON format that allows nested objects and arrays. The JSON format provides flexiblity in multi-dimensional user search and filtering. One example would be - one meeting can be tagged with an array of special interests [`young`,`queer`] or [`senior`,`korean-speaking`,`cancer survivor`]. If the data structure is in table format, it will force the meeting to have only one special interest option or surface a meeting multiple times just because it has multiple special interests. 
 3. In terms of the hierachy, I think the schema structure resembles a star schema. With table `meeting` in the center serving as a fact-like table, and other tables linked to it as dimentional tables.
 ###
 **Schema Design**:
