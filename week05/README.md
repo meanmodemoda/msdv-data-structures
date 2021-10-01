@@ -4,7 +4,7 @@ Create a data model for a NoSQL database using a source of semi-structured, qual
 ### Assignment Details
 I decided to use this assignment to lay the foundation of an external collab project I'm working with [The Fashion Law](thefashionlaw.com/). We are experimenting coverting [this running list of fashion investments](thefashionlaw.com/a-running-timeline-of-fashion-and-luxury-mergers-acquisitions/) into a more reader-friendly format with the ability to search, filter and aggregate. I thought this running list of content is a perfect example of the semi-structured qualitative data.
 
-Draw and upload the [data model diagram](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/sql_diagram.png), and three Word dummy entries.
+Draw and upload the [data model diagram](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/nosql_diagram.png), and three Word dummy entries.
 
 [Dummy Entry 1](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_01.docx) | [Dummy Entry 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_02.docx) | [Dummy Entry 3](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_03.docx)
 
