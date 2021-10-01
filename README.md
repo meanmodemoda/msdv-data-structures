@@ -12,5 +12,5 @@ This is an ongoing documentation of my course progress of Data Structures taken 
 **Week 4** - Learn and design a SQL database schema. 
 
 **Week 5** - Design a NoSQL data model that converts [this running list of fashion investments](thefashionlaw.com/a-running-timeline-of-fashion-and-luxury-mergers-acquisitions/) into a more reader-friendly format with the ability to search, filter and aggregate.
-<br>
+###
 For detailed documentation for each week's assignment, refer to the individual README.md files.

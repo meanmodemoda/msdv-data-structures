@@ -25,7 +25,7 @@ Draw and upload the [data model diagram](https://github.com/meanmodemoda/msdv-da
 
 ##  
 ### Reflections
-Upon research, I think [hackolade](https://hackolade.com/) is a great resource for NoSQL database design. However, I don't like its diagram structure, which still seems overly complicated and I decided to draw a simplier format but leveraging its tree-structure/folder-like concept.
+Upon research, I think [hackolade](https://hackolade.com/) is a great resource for NoSQL database design. However, I don't like its diagram structure, which still seems overly complicated and I decided to draw a simplier format but leverage its tree-structure/folder-like concept.
 
 ##  
 ### References
