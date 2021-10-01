@@ -6,7 +6,7 @@ I decided to use this assignment to lay the foundation of an external collab pro
 
 Draw and upload the [data model diagram](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/sql_diagram.png), and three Word dummy entries.
 
-[Dummy Entry 1](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/dummy_data.xlsx) | [Dummy Entry 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/dummy_data.xlsx) | [Dummy Entry 3](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/dummy_data.xlsx)
+[Dummy Entry 1](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_01.docx) | [Dummy Entry 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_02.docx) | [Dummy Entry 3](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_03.docx)
 
 
 ##
