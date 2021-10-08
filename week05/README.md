@@ -9,6 +9,10 @@ Draw and upload the [data model diagram](https://github.com/meanmodemoda/msdv-da
 [Dummy Entry 1](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_01.docx) | [Dummy Entry 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_02.docx) | [Dummy Entry 3](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05/dummy_entry_03.docx)
 
 
+### Reference Output Format
+[Parsons MSDV Thesis](https://parsons.nyc/thesis/#/)
+[Triennale Milano Exhibit Digital Archive](https://triennale.org/archivi)
+
 ##
 ### Process
 ###
