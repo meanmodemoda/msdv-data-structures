@@ -11,19 +11,24 @@ Set up a NoSQL database via Amazon DynamoDB. Write data into the database.
 ###
 **Step 1**: Refine schema design
 
-I decided to trim down the database content so I could spend less time on data entry and more time on front-end coding. Using the updated schema, I created a `dealblog` DynamoDB table. I chose to use `title` as my `primary key`. I decided not to include a `sorting key`, since it also needs to be queried on. To achieve sorting function, I can build the sorting interactive in the front end instead. 
-
+I decided to trim down the database content so I could spend less time on data entry and more time on coding for the front-end. 
+###
 <img src="./nosql_diagram_v3.png" width="500" alt="schema design diagram">
-
+###
+Based on the updated schema, I created a `dealblog` DynamoDB table. I chose to use `title` as my `primary key` and a numeric time number `dt` converted from the `updatedAt` day value as the `sorting key`. A note to myself is even `dt` is a number type, I still need to stringfy it for writing into database.
+```javascript 
+ this.dt = {}; 
+    this.dt.N = new Date(updatedAt).getTime().toString();
+```
 **Step 2**: Create a class for populating blog entries 
 
-I followed the starter code to create sample blog entries and console.log them to check the output.
+I followed the starter code to create 3 sample blog entries and console.log them to check the output.
 
 **Step 3**: Write blog entries into DynamoDB
 
-I created an `async` callback function referencing previous assignment to write all blog entries into the `dealblog` table. The blog entries were successfully written into the database.
+I created an `async` callback function referencing previous assignmentss to write all blog entries into the `dealblog` table. The blog entries were successfully written into the database.
 
-<img src="./DynamoDB_returns.png" width="800" alt="DynamoDB returns">
+<img src="./DynamoDB_return.png" width="800" alt="DynamoDB returns">
 
 ### Reflections
 ###

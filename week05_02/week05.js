@@ -6,6 +6,8 @@ class BlogEntry {
   constructor(title, updatedAt, country, region, industry, topic, content) {
     this.title = {};
     this.title.S = title;
+    this.dt = {}; 
+    this.dt.N = new Date(updatedAt).getTime().toString();
     this.updatedAt = {}; 
     this.updatedAt.S = new Date(updatedAt).toDateString();
     this.country = {};
@@ -28,7 +30,7 @@ blogEntries.push(new BlogEntry('G-III to Acquire Sonia Rykiel','September 28 202
 blogEntries.push(new BlogEntry('Chanel Takes Majority Stake in Paima','Auguest 24, 2021', 'France', 'Europe', ["apparel","luxury"],["supply chain","knitwear"],'Chanel has taken a majority stake in Italian knitwear company Paima, a move that falls in line with a larger pattern of luxury giants looking gain greater control over their supply chains by bringing key third-party companies under their own roofs. “This decision has been motivated by converging interests,” Chanel asserted in a statement, noting that while Paima, which has been a supplier for the French fashion brand for 25 years, “has seen its development accelerate in recent years, it seemed appropriate to have a solid partner to help it grow \[further\] and invest.” More than that, Chanel revealed that the investment “provides a more sustainable collaboration framework by continuing an already established relationship.”'));
 blogEntries.push(new BlogEntry('Authentic Brands Group Buys Reebok','Auguest 12, 2021','Germany', 'Europe',["footwear"],["portfolio"],'Adidas is selling its Reebok brand to Authentic Brands Groups for up to 2.1 billion euros \($2.46 billion\), with the German sporting wear group looking to “focus on its core brand after the U.S. fitness label failed to live up to expectations,” per Reuters. Authentic Brand, which filed its preliminary IPO documentation in July, has been on a buying streak in the past few years, with the brand developer buying up an array of fashion and apparel companies, ranging from Juicy Couture and Judith Leiber to Jones New York, Volcom, and Aeropostale.'));
 
-// console.log(blogEntries);
+console.log(blogEntries);
 
 var AWS = require('aws-sdk');
 AWS.config = new AWS.Config();
