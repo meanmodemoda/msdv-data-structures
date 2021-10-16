@@ -20,7 +20,7 @@ client.connect();
 
 // var thisQuery = "SELECT COUNT (*) FROM aalocations;"
 // var thisQuery = "SELECT COUNT (*) FROM meetings;"
-var thisQuery = "SELECT m.gid, m.mtgday, m.mtgstart, m.mtgend, m.mtgtype, l.address FROM aalocations l JOIN meetings m ON l.gid = m.gid WHERE m.mtgday = 'Monday' and m.mtgtype = 'OD';";
+var thisQuery = "SELECT m.gid, m.mtgday, m.mtgstart, m.mtgend, m.mtgtype, l.address FROM aalocations l LEFT JOIN meetings m ON l.gid = m.gid WHERE m.mtgday = 'Monday' and m.mtgtype = 'OD';";
 
 client.query(thisQuery, (err, res) => {
     if (err) {throw err}
