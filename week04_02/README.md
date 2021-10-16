@@ -2,7 +2,10 @@
 Continue to scrape data from AA website and storage data into Amazon RDS PostgreSQL database. 
 ##
 ### Assignment Details
-Set up Amazon RDS PostgreSQL database, scrape and prepare tables in Node.js, create tables in PostgreSQL, insert data and check if data has been written into database correctly.  
+- Set up Amazon RDS PostgreSQL database, re-install all dependencies in new Cloud9 environment. (`env`,`async`,`got`,`pg`,`fs`,`querystring`,`cheerio`)
+- Scrape and prepare tables in Node.js.
+- Create tables in PostgreSQL, insert data and check if data has been written into the database correctly.  
+
 ##
 ### Process
 ###
