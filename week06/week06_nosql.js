@@ -7,12 +7,16 @@ var dynamodb = new AWS.DynamoDB();
 
 var params = {
     TableName : "dealblog",
-    KeyConditionExpression: "#tt = :titleName", // the query expression
-    ExpressionAttributeNames: { // name substitution, used for reserved words in DynamoDB
-        "#tt" : "title"
-    },
+    KeyConditionExpression: "industry = :industryName and dt between :minDate and :maxDate",// the query expression
+    // KeyConditionExpression: "#tp = :topicName and dt between :minDate and :maxDate", 
+    // ExpressionAttributeNames: {  // name substitution, used for reserved words in DynamoDB
+    //     "#tp" : "topic"
+    // },
+    //Learnings: for reserved names, create a name substitution that starts with `#`. If `topic` is not a reserved name, you don't need a name substitution. 
     ExpressionAttributeValues: { // the query values
-        ":titleName": {S: "chanel"}
+        ":industryName": {S:"apparel"},
+        ":minDate": {N: new Date("July 11, 2021").valueOf().toString()},
+        ":maxDate": {N: new Date("September 28, 2021").valueOf().toString()}
     }
 };
 
@@ -26,3 +30,4 @@ dynamodb.query(params, function(err, data) {
         });
     }
 });
+
