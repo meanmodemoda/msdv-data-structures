@@ -17,7 +17,7 @@ Continue to scrape data from AA website and write data into Amazon RDS PostgreSQ
     ----|--------|----------| -------|---------  
     1 | 'Wednesday' | '8:30 PM' | '9:30 PM' | 'C'
 
-Initially, I built the table in nested JSON format. I later decided to flatten it for easy writing into PostgreSQL.
+- Initially, I built the table in nested JSON format. I later decided to flatten it for easy writing into PostgreSQL.
 
 - I made small modifications to [week03.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week03/week03.js) that outputs an `addresses` table. Each address is also assigned with a `gid`. Later, I will use `gid` to join `flatmeetings` with `addresses`.
 
