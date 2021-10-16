@@ -33,7 +33,7 @@ I followed the starter code to create 3 sample blog entries and console.log them
 
 **Step 3**: Write blog entries into DynamoDB
 
-I created an `async` callback function referencing previous assignmentss to write all blog entries into the `dealblog` table. The blog entries were successfully written into the database.
+I created an `async` callback function to write all blog entries into the `dealblog` table. The blog entries were successfully written into the database.
 
 <img src="./DynamoDB_return.png" width="800" alt="DynamoDB returns">
 
