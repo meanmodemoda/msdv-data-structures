@@ -1,39 +1,38 @@
 ### Summary
-Create a schema design for a SQL database using the AA meeting data. 
+Continue to scrape data from AA website and storage data into Amazon RDS PostgreSQL database. 
 ##
 ### Assignment Details
-Populate dummy data tables with ALL the data from the first three rows of the AA zone (01) and save to an [Excel file](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/dummy_data.xlsx). Draw and upload a [database schema diagram](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/sql_diagram.png). 
+Set up Amazon RDS PostgreSQL database, scrape and prepare tables in Node.js, create tables in PostgreSQL, insert data and check if data has been written into database correctly.  
 ##
 ### Process
 ###
-**Decisions**: 
+**Step 1**: Scrape more data and create tables for PostgreSQL database. 
 
-1. The AA Meeting data is relatively static and small scale. However, I still chose to normalize the data to reduce redundency and most importantly preserve data integrity as we have observed the original data has huge data integrity issues. 
-2. The data structure that comes out of the database should be in JSON format that allows nested objects and arrays. The JSON format provides flexiblity in multi-dimensional user search and filtering. One example would be - one meeting can be tagged with an array of special interests [`young`,`queer`] or [`senior`,`korean-speaking`,`cancer survivor`]. If the data structure is in table format, it will force the meeting to have only one special interest option or surface a meeting multiple times just because it has multiple special interests. 
-3. In terms of the hierachy, I think the schema structure resembles a star schema. With table `meeting` in the center serving as a fact-like table, and other tables linked to it as dimentional tables.
-###
-**Schema Design**:
+- In [week04a_scrape_tables_v2.js](), I created a new table `flatmeetings` that lists out basic individual meeting information. Each meeting is assigned with a `gid` (group id).
+- 
+gid | mtgday | mtgstart | mtgend | mtgtype
+----|--------|----------| -------|---------  
+1 | 'Wednesday' | '8:30 PM' | '9:30 PM' | 'C'
+
+Initially, I built the table in nested JSON format. I later decided to flatten it for easy writing into PostgreSQL.
+
+- I made small modifications to [week03.js]() that outputs an `addresses` table. Each address is also assigned with a `gid`. Later, I will use `gid` to join `flatmeetings` with `addresses`.
 
 
-<img src="./sql_diagram.png" width="1000" alt="schema design diagram">
+**Step 2**: Set up tables in Amazon PostgresSQL
 
-One thing I'm not entirely sure is the many-to-many relationship between `meeting` table and `special_interest` table. To represent this relationship in a SQL database, one has to create redundency in the `special_interest` table where multiple special interests can be associated with one `meeting_id` and one `meeting_id` can be associated with multiple special interests. I almost want the `special_interest` value to exist in an array format and wonder if a NoSQL database makes more sense here. 
+- In [week04b_create_sqltables.js](), I followed the starter code and created two empty PostgreSQL tables `aalocations` and `meetings`.
+
+**Step 3**: Insert data into PostgreSQL
+
+- In [week04c_fill_sqltables.js](), I followed the starter code and write into PostgreSQL tables `aalocations` and `meetings` using the two JSON files I created in Step 1.
+
+**Step 4**: Test data input in PostgreSQL
+
+- In [week04d_check_work.js](), I followed the starter code and print out the two PostgreSQL tables. They looked about right. 
 
 
-##  
 ### Reflections
 ###
-I have some interesting revelations while working on this assignment. 
-
-* My previous role in analytics heavily influenced my earlier thought process that I mistook a data warehouse for a database. In analytics, we want a denormalized data structure but that's different from how data is stored operation wise.
-I found this [article](https://panoply.io/data-warehouse-guide/the-difference-between-a-database-and-a-data-warehouse/) about the difference between database and data warehouse particularly helpful in my decision making.
-
-* Also dug a bit deeper into the different degrees of normalization and trade-offs and I found [wikipedia's explanation](https://en.wikipedia.org/wiki/Database_normalization) to be one of the most comprehensive articles on `normal forms`.
-##  
-### References
-- [https://www.conceptatech.com/blog/best-practices-how-to-design-a-database](https://www.conceptatech.com/blog/best-practices-how-to-design-a-database)
-- [https://www.conceptatech.com/blog/nosql-vs-sql-which-is-right-for-your-project](https://www.conceptatech.com/blog/nosql-vs-sql-which-is-right-for-your-project)
-- [https://panoply.io/data-warehouse-guide/the-difference-between-a-database-and-a-data-warehouse/](https://panoply.io/data-warehouse-guide/the-difference-between-a-database-and-a-data-warehouse/)
-- [https://francisjohnpicaso.wordpress.com/2018/12/09/star-schema-vs-flat-table-for-reporting-a-comparative-study/](https://francisjohnpicaso.wordpress.com/2018/12/09/star-schema-vs-flat-table-for-reporting-a-comparative-study/)
-
-
+I gained a deeper understanding of `forEach()` and `map()` methods in iterating through nested arrays. 
+I wonder if I can write a nested array into PostgreSQL and if the syntax will be vastly different. 
