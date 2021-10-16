@@ -9,8 +9,10 @@ This is an ongoing documentation of my course progress of Data Structures taken 
 
 **Week 3** - Use API to extract additional data using existing data as query component. Write data into a composite array structure and save to a JSON file. 
 
-**Week 4** - Learn and design a SQL database schema. 
+**Week 4** - Part 1: Learn and design a SQL database schema. Part 2: Create PostgreSQL database and write data into the database. 
 
-**Week 5** - Design a NoSQL data model that converts [this running list of fashion investments](https://thefashionlaw.com/a-running-timeline-of-fashion-and-luxury-mergers-acquisitions/) into a more reader-friendly format with the ability to search, filter and aggregate.
+**Week 5** - Part 1: Design a NoSQL data model that converts [this running list of fashion investments](https://thefashionlaw.com/a-running-timeline-of-fashion-and-luxury-mergers-acquisitions/) into a more reader-friendly format with the ability to search, filter and aggregate. Part 2: Refine data schema design, create a NoSQL DynamoDB database and write data into the database.
+
+**Week 6** - Query data in PostgreSQL and NoSQL databases.
 ###
 For detailed documentation for each week's assignment, refer to the individual README.md files.
