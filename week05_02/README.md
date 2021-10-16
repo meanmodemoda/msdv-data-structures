@@ -16,10 +16,13 @@ I decided to trim down the database content so I could spend less time on data e
 <img src="./nosql_diagram_v3.png" width="500" alt="schema design diagram">
 ###
 Based on the updated schema, I created a `dealblog` DynamoDB table. I chose to use `title` as my `primary key` and a numeric time number `dt` converted from the `updatedAt` day value as the `sorting key`. A note to myself is even `dt` is a number type, I still need to stringfy it for writing into database.
-```javascript 
+###
+
+```javascript
  this.dt = {}; 
-    this.dt.N = new Date(updatedAt).getTime().toString();
+ this.dt.N = new Date(updatedAt).getTime().toString();
 ```
+
 **Step 2**: Create a class for populating blog entries 
 
 I followed the starter code to create 3 sample blog entries and console.log them to check the output.
