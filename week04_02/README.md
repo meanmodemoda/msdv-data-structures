@@ -29,7 +29,12 @@ In [week04c_fill_sqltables.js](https://github.com/meanmodemoda/msdv-data-structu
 ###
 **Step 4**: Test data input in PostgreSQL
 
-In [week04d_check_work.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04d_check_work.js), I followed the starter code and print out the two PostgreSQL tables. They looked about right. In [week06.js](), a successful query was returned.
+In [week04d_check_work.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04d_check_work.js), I followed the starter code and print out the two PostgreSQL tables. They looked about right. Snippets of query output attached below.
+
+table `flatmeeting` | table `aalocations`
+----------------------|--------------------
+<img src="./sql_table1.png" width="300" alt="sql_table1">|<img src="./sql_table2.png" width="300" alt="sql_table2">
+
 
 ### Reflections
 ###
