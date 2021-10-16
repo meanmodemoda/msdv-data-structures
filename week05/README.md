@@ -10,8 +10,8 @@ Draw and upload the [data model diagram](https://github.com/meanmodemoda/msdv-da
 
 
 ### Reference Output Format
-[Parsons MSDV Thesis](https://parsons.nyc/thesis/#/)
-[Triennale Milano Exhibit Digital Archive](https://triennale.org/archivi)
+- [Parsons MSDV Thesis](https://parsons.nyc/thesis/#/)
+- [Triennale Milano Exhibit Digital Archive](https://triennale.org/archivi)
 
 ##
 ### Process

@@ -1,4 +1,7 @@
 {
+    "build": {
+        "@saveall": true
+    },
     "extensions": {
         "@aws.cfnSchemaVersion": "v5.2.11",
         "@aws.samSchemaVersion": "v5.2.11",
@@ -31,6 +34,9 @@
             "!Split",
             "!Split sequence"
         ]
+    },
+    "instance": {
+        "@automaticShutdown": "30"
     },
     "language": {
         "tern_defs": {

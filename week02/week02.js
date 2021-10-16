@@ -1,3 +1,4 @@
+// npm install cheerio
 
 var fs = require('fs');
 var cheerio = require('cheerio');
@@ -48,7 +49,7 @@ fs.writeFileSync('/home/ec2-user/environment/data/aa-m01-address.json',  JSON.st
     }
 );
 
-console.log('Number of Address Records: +addPrep.length);
+console.log('Number of Address Records:' +addPrep.length);
 
 //below shows raw addresses parsed
 //fs.writeFileSync('../data/aa-m01-address.txt', addPrep);
