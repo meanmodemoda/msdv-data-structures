@@ -23,17 +23,17 @@ Initially, I built the table in nested JSON format. I later decided to flatten i
 
 In [week04b_create_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04b_create_sqltables.js), I followed the starter code and created two empty PostgreSQL tables `aalocations` and `meetings`.
 ###
-**Step 3**: Insert data into PostgreSQL
+**Step 2**: Insert data into PostgreSQL
 
 In [week04c_fill_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04c_fill_sqltables.js), I followed the starter code and write into PostgreSQL tables `aalocations` and `meetings` using the two JSON files I created in Step 1.
 ###
-**Step 4**: Test data input in PostgreSQL
+**Step 3**: Test data input in PostgreSQL
 
 In [week04d_check_work.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04d_check_work.js), I followed the starter code and print out the two PostgreSQL tables. They looked about right. Snippets of query output attached below.
 
-table `meetings` | table `aalocations`
+table `aalocations`|table `meetings`
 ----------------------|--------------------
-<img src="./sql_table1.png" width="200" alt="sql_table1">|<img src="./sql_table2.png" width="200" alt="sql_table2">
+<img src="./sql_table2.png" width="200" alt="sql_table2">|<img src="./sql_table1.png" width="250" alt="sql_table1">
 
 
 ### Reflections
