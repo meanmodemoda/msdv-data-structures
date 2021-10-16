@@ -1,5 +1,5 @@
 ### Summary
-Continue to scrape data from AA website and write data into Amazon RDS PostgreSQL database. 
+Write queries in both PostgreSQL and NoSQL databases. 
 ##
 ### Assignment Details
 - Set up Amazon RDS PostgreSQL database, re-install all dependencies in new Cloud9 environment. (`env`,`async`,`got`,`pg`,`fs`,`querystring`,`cheerio`)
@@ -19,7 +19,10 @@ Continue to scrape data from AA website and write data into Amazon RDS PostgreSQ
 
 Initially, I built the table in nested JSON format. I later decided to flatten it for easy writing into PostgreSQL.
 
-- I made small modifications to [week03.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week03/week03.js) that outputs an `addresses` table. Each address is also assigned with a `gid`. Later, I will use `gid` to join `flatmeetings` with `addresses`.
+- I made small modifications to [week03.js]() that outputs an `addresses` table. Each address is also assigned with a `gid`. Later, I will use `gid` to join `flatmeetings` with `addresses`.
+
+
+**Step 2**: Set up tables in Amazon PostgresSQL
 
 In [week04b_create_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04b_create_sqltables.js), I followed the starter code and created two empty PostgreSQL tables `aalocations` and `meetings`.
 ###
@@ -29,10 +32,10 @@ In [week04c_fill_sqltables.js](https://github.com/meanmodemoda/msdv-data-structu
 ###
 **Step 4**: Test data input in PostgreSQL
 
-In [week04d_check_work.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04d_check_work.js), I followed the starter code and print out the two PostgreSQL tables. They looked about right. In [week06.js](), a successful query was returned.
+In [week04d_check_work.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04d_check_work.js), I followed the starter code and print out the two PostgreSQL tables. They looked about right. 
+
 
 ### Reflections
 ###
-I realized that I should probably have constructed the new `flatmeeting` using a class template where I can define `mtgstart` and `mtgend` as numeric values vs strings. I will modify my code and make changes accordingly next time. 
 I gained a deeper understanding of `forEach()` and `map()` methods in iterating through nested arrays. 
 I wonder if I can write a nested array into PostgreSQL and if the syntax will be vastly different. 

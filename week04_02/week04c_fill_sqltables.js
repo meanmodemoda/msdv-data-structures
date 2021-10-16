@@ -25,12 +25,12 @@ db_credentials.port = 5432;
 
 
 
-async.eachSeries(meetings, function(value, callback) {
+async.eachSeries(addresses, function(value, callback) {
     const client = new Client(db_credentials);
     client.connect();
-    // var thisQuery = "INSERT INTO aalocations VALUES (" +value.gid + ", E'" + value.address + "', " + value.latLong.lat + ", " + value.latLong.lng + ");";
+    var thisQuery = "INSERT INTO aalocations VALUES (" +value.gid + ", E'" + value.address + "', " + value.latLong.lat + ", " + value.latLong.lng + ");";
     //Learnings: Use `E '' ` around the variable to escape commas
-    var thisQuery = "INSERT INTO meetings VALUES (" + value.gid + ", E'" + value.mtgday + "', E'" + value.mtgstart + "', E'" + value.mtgend +"', E'"+ value.mtgtype +"');";
+    // var thisQuery = "INSERT INTO meetings VALUES (" + value.gid + ", E'" + value.mtgday + "', E'" + value.mtgstart + "', E'" + value.mtgend +"', E'"+ value.mtgtype +"');";
     
     client.query(thisQuery, (err, res) => {
         console.log(err, res);

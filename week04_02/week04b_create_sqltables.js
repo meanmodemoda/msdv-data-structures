@@ -20,13 +20,12 @@ client.connect();
 
 // Sample SQL statement to create a table: 
 
-var thisQuery = "CREATE TABLE meetings (gid int, mtgday varchar(25), mtgstart varchar(25), mtgend varchar(25), mtgtype varchar(75));";    
-// var addressTable = "CREATE TABLE aalocations (gid integer, address varchar(100), lat double precision, long double precision);";
+// var thisQuery = "CREATE TABLE meetings (gid int, mtgday varchar(25), mtgstart varchar(25), mtgend varchar(25), mtgtype varchar(75));";    
+var thisQuery = "CREATE TABLE aalocations (gid integer, address varchar(100), lat double precision, long double precision);";
 //I think I should change `day`, `start`, `end` to more thoughtful data types in the future
 
-// var thisQuery = "CREATE TABLE test (address varchar(100), lat double precision, long double precision);";
 // Sample SQL statement to delete a table: 
-// var thisQuery = "DROP TABLE meetings;";  
+// var thisQuery = "DROP TABLE aalocations";  
 
 client.query(thisQuery, (err, res) => {
     console.log(err, res);
