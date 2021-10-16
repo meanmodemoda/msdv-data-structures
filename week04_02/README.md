@@ -33,7 +33,7 @@ In [week04d_check_work.js](https://github.com/meanmodemoda/msdv-data-structures/
 
 table `flatmeeting` | table `aalocations`
 ----------------------|--------------------
-<img src="./sql_table1.png" width="300" alt="sql_table1">|<img src="./sql_table2.png" width="300" alt="sql_table2">
+<img src="./sql_table1.png" width="200" alt="sql_table1">|<img src="./sql_table2.png" width="200" alt="sql_table2">
 
 
 ### Reflections
