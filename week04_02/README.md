@@ -21,7 +21,7 @@ Continue to scrape data from AA website and write data into Amazon RDS PostgreSQ
 
 - I made small modifications to [week03.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week03/week03.js) that outputs an `addresses` table. Each address is also assigned with a `gid`. Later, I will use `gid` to join `flatmeetings` with `addresses`.
 ###
-**Step 2**
+**Step 2**: Create empty PostgreSQL tables
 In [week04b_create_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04b_create_sqltables.js), I followed the starter code and created two empty PostgreSQL tables `aalocations` and `meetings`.
 ###
 **Step 3**: Insert data into PostgreSQL
