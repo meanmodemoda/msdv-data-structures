@@ -20,14 +20,15 @@ Continue to scrape data from AA website and write data into Amazon RDS PostgreSQ
 - Initially, I built the table in nested JSON format. I later decided to flatten it for easy writing into PostgreSQL.
 
 - I made small modifications to [week03.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week03/week03.js) that outputs an `addresses` table. Each address is also assigned with a `gid`. Later, I will use `gid` to join `flatmeetings` with `addresses`.
-
+###
+**Step 2**
 In [week04b_create_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04b_create_sqltables.js), I followed the starter code and created two empty PostgreSQL tables `aalocations` and `meetings`.
 ###
-**Step 2**: Insert data into PostgreSQL
+**Step 3**: Insert data into PostgreSQL
 
 In [week04c_fill_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04c_fill_sqltables.js), I followed the starter code and write into PostgreSQL tables `aalocations` and `meetings` using the two JSON files I created in Step 1.
 ###
-**Step 3**: Test data input in PostgreSQL
+**Step 4**: Test data input in PostgreSQL
 
 In [week04d_check_work.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04_02/week04d_check_work.js), I followed the starter code and print out the two PostgreSQL tables. They looked about right. Snippets of query output attached below.
 
