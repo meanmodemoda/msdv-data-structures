@@ -27,6 +27,7 @@ str.replace(/[\\"']/g, '\\$&').replace(/\u0000/g, '\\0')
 - I didn't automate a loop for the 10 zones because each zone has its own wonkiness. I did a visual scan for the output of each zone. For edge cases where programatical tweaks are more effective, code is updated accordingly. However, sometimes, it just makes more sense to make a quick change manually and directly to the file.
 - Once all 10 zones' data are collected, I combined them together in [week07_sql_combine.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_sql_combine.js).
 - I used the full list of addresses to fetch the full list of geocode in [week07_sql_geocode.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_sql_geocode.js).
+- Here I preserved the original addresses parsed from the data as `inputAddress` for the `addressCoordinates` table. I will use this field as the key to link back to the `groupAddresses` table. However, I would use `address`, cleaned and standardized from the geocode API as the actual address field for front end users to search and filter on.
 - At each step, check points were put into place (i.e., console.logging array lengths and spot checks) to make sure the data is returned completely without missing records or having duplicates.
 - Now everything is ready for writing into SQL.
 
