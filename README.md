@@ -17,5 +17,7 @@ This is an ongoing documentation of my course progress of Data Structures taken 
 
 [**Week 6**](https://github.com/meanmodemoda/msdv-data-structures/tree/master/week06) - Query data in PostgreSQL and NoSQL databases.
 
+[**Week 7**](https://github.com/meanmodemoda/msdv-data-structures/tree/master/week07) - Complete parsing and cleaning of 10 Manhattan AA meeting data and write into SQL database.
+
 ###
 For detailed documentation for each week's assignment, refer to the individual README.md files.
