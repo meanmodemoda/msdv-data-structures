@@ -1,4 +1,9 @@
+/*global d3 */
+
 // npm install aws-sdk
+
+
+
 var AWS = require('aws-sdk');
 AWS.config = new AWS.Config();
 AWS.config.region = "us-east-1";

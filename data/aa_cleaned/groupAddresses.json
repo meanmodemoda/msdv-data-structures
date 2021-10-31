@@ -1,0 +1,8604 @@
+[
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "20 Cardinal Hayes Place"
+    },
+    "groupName": {
+      "S": "A Design For Living"
+    },
+    "crossStreet": {
+      "S": "(Between Duane and Pearl Streets)"
+    },
+    "notes": {
+      "S": "@Duane and Centre behind Federal courthouse enter thru driveway behind Church No meetings on Holidays"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "20 Cardinal Hayes Place"
+    },
+    "groupName": {
+      "S": "Chambers Street"
+    },
+    "crossStreet": {
+      "S": "(1 Block North of Chambers Street)"
+    },
+    "notes": {
+      "S": "No meetings on Holidays. **LOCATION SUBJECT TO CHANGE- Call Inter-Group"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "29 Mott Street"
+    },
+    "groupName": {
+      "S": "Chinatown"
+    },
+    "crossStreet": {
+      "S": "(@ Mott &amp; Mosco Streets)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "49 Fulton Street"
+    },
+    "groupName": {
+      "S": "Downtown"
+    },
+    "crossStreet": {
+      "S": "(@ Pearl Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "44 John Street"
+    },
+    "groupName": {
+      "S": "Exchange Views @ John Street Church"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Thursday 1:30 = Alt. Step/Tradition Email exchangeviews1215@yahoo.com for questions"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "49 Fulton Street"
+    },
+    "groupName": {
+      "S": "Exchange Views @ St. Margaret\\'s House"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "This is new location as of 9-12-14 M 7:30 am= Trad 1st Monday."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "20 Cardinal Hayes Place"
+    },
+    "groupName": {
+      "S": "Friday Downtown"
+    },
+    "crossStreet": {
+      "S": "(1 Block North of Chamber Street, Behind Federal Courthouse)"
+    },
+    "notes": {
+      "S": "Note: Location Subject to change"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "22 Barclay Street"
+    },
+    "groupName": {
+      "S": "Gateway"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "20 Cardinal Hayes Place"
+    },
+    "groupName": {
+      "S": "Passing The Bar"
+    },
+    "crossStreet": {
+      "S": "(Betw. Duane &amp; Pearl Streets)"
+    },
+    "notes": {
+      "S": "*Business meeting last Tuesday @ Mar,Jun,Sep & Dec.only. **Promises 1st Wednesday, ***T Last Thursday ** LOCATION IS SUBJECT TO CHANGE"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "22 Barclay Street"
+    },
+    "groupName": {
+      "S": "S.o.b.e.r."
+    },
+    "crossStreet": {
+      "S": "(Corner of Barclay &amp; Church Streets)"
+    },
+    "notes": {
+      "S": "Enter on Church Street Lower floor, Parish Office Room"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "283 West Broadway"
+    },
+    "groupName": {
+      "S": "Sane And Sober"
+    },
+    "crossStreet": {
+      "S": "(Betw. Lispenard and Canal Streets)"
+    },
+    "notes": {
+      "S": "Mental Health Challenges in Sobriety. *Alternating Closed & rotating 1, 2, 3 Step every other week. Open – Last Wednesday."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "125 Barclay Street"
+    },
+    "groupName": {
+      "S": "Saturday Afternoon Discussion"
+    },
+    "crossStreet": {
+      "S": "(Betw. Greenwich Street &amp; West Side Highway)"
+    },
+    "notes": {
+      "S": "Ask security guard for room #"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "49 Fulton Street"
+    },
+    "groupName": {
+      "S": "Seamen\\'s Group"
+    },
+    "crossStreet": {
+      "S": "(@ Water &amp; Fulton Streets)"
+    },
+    "notes": {
+      "S": "*Co-ed meeting, all are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "49 Fulton Street"
+    },
+    "groupName": {
+      "S": "Seaport"
+    },
+    "crossStreet": {
+      "S": "(Corner of Fulton &amp; Pearl Streets @ Water Street)"
+    },
+    "notes": {
+      "S": "11th Step Meditation (Mon), Topic (Thu)"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "20 Cardinal Hayes Place"
+    },
+    "groupName": {
+      "S": "Tower"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Step 1st Wednesday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "283 West Broadway"
+    },
+    "groupName": {
+      "S": "Triangle Group"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Walk thru green doors; first floor, rear. Addtl meditation meeting on Sunday at 11:15 if room full"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "49 Fulton Street"
+    },
+    "groupName": {
+      "S": "Tribeca Group @ St. Margaret\\'s House"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "this is the new location as of 9/8/14 tribecagroup2014@gmail.com"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "22 Barclay Street"
+    },
+    "groupName": {
+      "S": "Tribeca Group @ St. Peter\\'s Church"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Monday step - 3rd and 11th step workshop tribecagroup2014@gmail.com"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "20 Cardinal Hayes Place"
+    },
+    "groupName": {
+      "S": "Women\\'s Downtown Aa Step Meeting"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "283 West Broadway"
+    },
+    "groupName": {
+      "S": "Young People\\'s Diversity"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Lesbian, Gay, Bi-sexual & Transgendered Focus All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "283 West Broadway"
+    },
+    "groupName": {
+      "S": "Young People\\'s Step"
+    },
+    "crossStreet": {
+      "S": "(Between West Broadway and Canal Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m01"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "283 W. Broadway"
+    },
+    "groupName": {
+      "S": "Youth Enjoying Sobriety (y.e.s.)"
+    },
+    "crossStreet": {
+      "S": "(at Canal Street)"
+    },
+    "notes": {
+      "S": "Open Anniv. Last Saturday."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "273 Bowery"
+    },
+    "groupName": {
+      "S": "A.a. On The Bowery"
+    },
+    "crossStreet": {
+      "S": "(@ Houston Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "232 West 11th Street"
+    },
+    "groupName": {
+      "S": "After Five"
+    },
+    "crossStreet": {
+      "S": "(Off 7th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "283 West Broadway"
+    },
+    "groupName": {
+      "S": "Afternoon Delight"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Sex inventory 4th step literature meeting Meets 1st and 3rd Saturday of the month from noon-1"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "232 W. 11th Street"
+    },
+    "groupName": {
+      "S": "Artists In Recovery (a.r.t.)"
+    },
+    "crossStreet": {
+      "S": "(between Waverly and West 4th Streets)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "220 West Houston Street"
+    },
+    "groupName": {
+      "S": "Bagels And Big Book"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th Avenue &amp; Varick Street)"
+    },
+    "notes": {
+      "S": "NOTE: Meeting only meets on the 1st & 3rd Sunday of each month *Big Book Workshop, Meeting ends at Noon."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "253 Center Street"
+    },
+    "groupName": {
+      "S": "Center Meeting"
+    },
+    "crossStreet": {
+      "S": "(@ Broome Street)"
+    },
+    "notes": {
+      "S": "No shoes worn in meeting location. A short meditation opens the meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "273 Bowery"
+    },
+    "groupName": {
+      "S": "East Village Sober Agnostics"
+    },
+    "crossStreet": {
+      "S": "(@ Houston Street)"
+    },
+    "notes": {
+      "S": "Ask front desk for meeting location"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "487 Hudson Street"
+    },
+    "groupName": {
+      "S": "Greenwich Village"
+    },
+    "crossStreet": {
+      "S": "(South of Christopher Street - behind church)"
+    },
+    "notes": {
+      "S": "Mon.Step=Rotates Steps 1,2&3, Fri.= T. Last Friday. Parents with children are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "292 Henry Street"
+    },
+    "groupName": {
+      "S": "Grupo Central"
+    },
+    "crossStreet": {
+      "S": "(A la isquierda de la iglesia)"
+    },
+    "notes": {
+      "S": "Spanish speaking meetings."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "232 West 11th Street"
+    },
+    "groupName": {
+      "S": "Happy, Joyous And Free"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Topic Meeting for gay men approaching and over 40. All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "141 Henry Street"
+    },
+    "groupName": {
+      "S": "Lower East Side"
+    },
+    "crossStreet": {
+      "S": "(Betw Henry &amp; Rutgers Streets)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "220 West Houston Street"
+    },
+    "groupName": {
+      "S": "Midnite"
+    },
+    "crossStreet": {
+      "S": "(Betw 6th Avenue &amp; Varick Street)"
+    },
+    "notes": {
+      "S": "Sun.12:30=Meditation, 2am Meetings=Pitch meeting with candlelight. Mon.8pm=Topic, Tues.10pm=T last Tues., Thu.10pm=Problems in Sobriety Sun.8pm=Bus.Meeting last Sun.,Sat.10pm=Anniv.Last"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "83 Christopher Street"
+    },
+    "groupName": {
+      "S": "New Group"
+    },
+    "crossStreet": {
+      "S": "(West of 7th Avenue, Enter Left, Red Door, Ring Buzzer)"
+    },
+    "notes": {
+      "S": "Gay & Lesbian focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "50 Perry Street"
+    },
+    "groupName": {
+      "S": "Perry Street Workshop"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th Avenue South &amp; West 4th Street)"
+    },
+    "notes": {
+      "S": "No 8:30 or 10:15 1st Wed of month due to Bus. meeting Wed.10:15pm=No BB 1st Wed."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "232 West 11th Street"
+    },
+    "groupName": {
+      "S": "Primetime Nyc (i)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "224 Waverly Place"
+    },
+    "groupName": {
+      "S": "Red Door"
+    },
+    "crossStreet": {
+      "S": "(@ 11th Street &amp; 7th Avenue South)"
+    },
+    "notes": {
+      "S": "Fri.7:00pm=Promises Meeting All meetings are Gay & Lesbian focused.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "154 Sullivan Street"
+    },
+    "groupName": {
+      "S": "Room For Improvement (:i)"
+    },
+    "crossStreet": {
+      "S": "(Enter on Sullivan Street)"
+    },
+    "notes": {
+      "S": "Wed.=Topic, Thu.=Promises & Fri.=T Last Fri."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "273 Bowery Street"
+    },
+    "groupName": {
+      "S": "Room For Improvement (:ii)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "371 6th Avenue"
+    },
+    "groupName": {
+      "S": "Sheridan Square Follies"
+    },
+    "crossStreet": {
+      "S": "(@ Corner of 6th Avenue &amp; Washington Place)"
+    },
+    "notes": {
+      "S": "Gay & Lesbian Focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "155 Sullivan Street"
+    },
+    "groupName": {
+      "S": "Soho    (:i)"
+    },
+    "crossStreet": {
+      "S": "(@ Houston Street)"
+    },
+    "notes": {
+      "S": "Mon.7pm=Anniv Last Mon., Fri.6:30pm=Interpreted for Deaf and Hard of Hearing. Friday Meeting occasionally changes the location;  please call New York Inter-Group to confirm meeting location."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "7 East 10th Strert"
+    },
+    "groupName": {
+      "S": "Spiritual Workshop"
+    },
+    "crossStreet": {
+      "S": "(@ Houston Street)"
+    },
+    "notes": {
+      "S": "Lower level"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "232 West 11th Street"
+    },
+    "groupName": {
+      "S": "T&amp;a"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Literature"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 23
+    },
+    "address": {
+      "S": "81 Christopher Street"
+    },
+    "groupName": {
+      "S": "Ten Plus"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "The speaker will have 10+ years of sobriety. All welcome. Please ring Meeting Bell only"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 24
+    },
+    "address": {
+      "S": "273 Bowery"
+    },
+    "groupName": {
+      "S": "The Captain\\'s Table"
+    },
+    "crossStreet": {
+      "S": "(@ Houston Street)"
+    },
+    "notes": {
+      "S": "Men\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 25
+    },
+    "address": {
+      "S": "232 West 11th Street"
+    },
+    "groupName": {
+      "S": "Together We Can"
+    },
+    "crossStreet": {
+      "S": "(Just off of 7th avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 26
+    },
+    "address": {
+      "S": "232 West 11th Street"
+    },
+    "groupName": {
+      "S": "Wednesday Focus"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 27
+    },
+    "address": {
+      "S": "83 Christopher Street"
+    },
+    "groupName": {
+      "S": "West Village Women"
+    },
+    "crossStreet": {
+      "S": "(Betw. Bleeker &amp; 7th Avenue)"
+    },
+    "notes": {
+      "S": "Focus women 5+ years of sobriety. All are welcome. Enter through Red Door left of church, Buzzer-Meeting Room"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 28
+    },
+    "address": {
+      "S": "220 West Houston Street"
+    },
+    "groupName": {
+      "S": "Women Into Action"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th Avenue &amp; Varick Street)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m02"
+    },
+    "gid": {
+      "N": 29
+    },
+    "address": {
+      "S": "273 Bowery"
+    },
+    "groupName": {
+      "S": "Women Together (:ii)"
+    },
+    "crossStreet": {
+      "S": "(@ The corner of Houston Street)"
+    },
+    "notes": {
+      "S": "*Women\\'s Meeting Lesbian focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "7 East 10th Street"
+    },
+    "groupName": {
+      "S": "12 Concepts Workshop"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Only meets on the 1st Wednesday of the month. A.A.\\'s 12 Concepts Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "155 East 22nd Street"
+    },
+    "groupName": {
+      "S": "22 Below"
+    },
+    "crossStreet": {
+      "S": "(Betw Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Trad.1st Wed., Fri.=Topic, Sat.=Round Robin Sharing All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "61 Fourth Avenue"
+    },
+    "groupName": {
+      "S": "Aa At The Three Jewels"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Topic meeting, focus is on meditation Thursday meeting ends at 7:10"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Agnostics At Noon"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "GLBT Focus. All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "123 East 15th Street"
+    },
+    "groupName": {
+      "S": "Alive Again"
+    },
+    "crossStreet": {
+      "S": "(@ Irving Place)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "61 Gramercy Park North"
+    },
+    "groupName": {
+      "S": "At Bill\\'s Place"
+    },
+    "crossStreet": {
+      "S": "(Betw Park &amp; Lexington Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "155 East 22nd Street"
+    },
+    "groupName": {
+      "S": "Atlantic By The Book"
+    },
+    "crossStreet": {
+      "S": "(Betw. Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "127 East 22nd Street"
+    },
+    "groupName": {
+      "S": "Atlantic Downtown"
+    },
+    "crossStreet": {
+      "S": "(Betw. Lexington &amp; Park Avenues)"
+    },
+    "notes": {
+      "S": "no entry before 5:30"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "602 East 9th Street"
+    },
+    "groupName": {
+      "S": "Avenue B Clean And Dry"
+    },
+    "crossStreet": {
+      "S": "(@ Avenue B)"
+    },
+    "notes": {
+      "S": "Ground Floor Anniversaries last Thursday of month"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "125 West 14th Street"
+    },
+    "groupName": {
+      "S": "Big Book Magic"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th &amp; 7th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "346 W. 20th Street"
+    },
+    "groupName": {
+      "S": "Chelsea Mornings"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Wed. alternates between Step and Tradition"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "125 West 14th Street"
+    },
+    "groupName": {
+      "S": "Chelsea Nooners"
+    },
+    "crossStreet": {
+      "S": "(Betw 6th &amp; 7th Avenues)"
+    },
+    "notes": {
+      "S": "Anniv. Last Thursday All Meetings Are Non-Smoking"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "414 East 14th Street"
+    },
+    "groupName": {
+      "S": "Complete Abandon"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st Avenue &amp; Avenue A)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "119 Ninth Avenue"
+    },
+    "groupName": {
+      "S": "Completely Sober"
+    },
+    "crossStreet": {
+      "S": "(Betw. 17th and 18th Streets)"
+    },
+    "notes": {
+      "S": "Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "202 West 24 Street"
+    },
+    "groupName": {
+      "S": "Crossroads"
+    },
+    "crossStreet": {
+      "S": "(between 7th and 8th Avenues)"
+    },
+    "notes": {
+      "S": "Check in at front desk all meetings are non-smoking"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "28 Gramercy Park South"
+    },
+    "groupName": {
+      "S": "East Meets West In Sobriety"
+    },
+    "crossStreet": {
+      "S": "(East 20th Street @ Irving Place)"
+    },
+    "notes": {
+      "S": "*Open Anniv Last Wednesday Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "50 East 7th Street"
+    },
+    "groupName": {
+      "S": "East Village Group"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "LGBT; all welcome. Tues 7pm=Artists in Recovery, all welcome. 8:30 1st Tues of Month Bus mtg. at 8:05"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "273 Bowery"
+    },
+    "groupName": {
+      "S": "Experience Strength And Hope"
+    },
+    "crossStreet": {
+      "S": "(Southeast corner of Houston Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "802 Broadway"
+    },
+    "groupName": {
+      "S": "Grace On Broadway"
+    },
+    "crossStreet": {
+      "S": "(@ 10th Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "28 Grammercy Park South"
+    },
+    "groupName": {
+      "S": "Gramercy"
+    },
+    "crossStreet": {
+      "S": "(between 3rd Ave. &amp; Irving Place)"
+    },
+    "notes": {
+      "S": "Last Mon.6:30pm=Anniv Last Thursday Tradition"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "209 East 16th Street"
+    },
+    "groupName": {
+      "S": "Grateful Group Of A.a."
+    },
+    "crossStreet": {
+      "S": "(Betw 3rd Avenue &amp; Rutherford Place)"
+    },
+    "notes": {
+      "S": "Tue.Topic=Gratitude, Thu=11th Step Meditation Meeting,"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "44 2nd Avenue"
+    },
+    "groupName": {
+      "S": "Grupo El Milagro"
+    },
+    "crossStreet": {
+      "S": "(Betw East 2nd &amp; 3rd Streets)"
+    },
+    "notes": {
+      "S": "Spanish speaking meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 23
+    },
+    "address": {
+      "S": "229 West 14th Street"
+    },
+    "groupName": {
+      "S": "Grupo Gratitud"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Mon=Step 1st Mon. Spanish speaking meetings."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 24
+    },
+    "address": {
+      "S": "229 West 14th Street"
+    },
+    "groupName": {
+      "S": "Grupo Sobriedad"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Spanish speaking meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 25
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "High Noon"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Interpreted for the deaf and hard of hearing Check listing at the center for the room number."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 26
+    },
+    "address": {
+      "S": "28 Gramercy Park South"
+    },
+    "groupName": {
+      "S": "Just For Today"
+    },
+    "crossStreet": {
+      "S": "(@ East 20th Street &amp; Irving Place)"
+    },
+    "notes": {
+      "S": "Please Do Not Call the Synagogue for Meeting Info."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 27
+    },
+    "address": {
+      "S": "208 W 13th Street"
+    },
+    "groupName": {
+      "S": "Laex"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "LA Transplants/Vistors    All Welcome"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 28
+    },
+    "address": {
+      "S": "307 W. 26th St."
+    },
+    "groupName": {
+      "S": "Learning To Live ( :1)"
+    },
+    "crossStreet": {
+      "S": "(at 8th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 29
+    },
+    "address": {
+      "S": "343 West 25th Street"
+    },
+    "groupName": {
+      "S": "Learning To Live ( :ii)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 30
+    },
+    "address": {
+      "S": "80 St. Marks Place"
+    },
+    "groupName": {
+      "S": "Living Now"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Tue.7pm=4th & 5th Step Workshop, **Beginners 3 speaker panel Sat.& Sun.10am Meeting is in the main theatre."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 31
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Living Today"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Gay & lesbian focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 32
+    },
+    "address": {
+      "S": "51 East 25th Street"
+    },
+    "groupName": {
+      "S": "Madison Park Beginners"
+    },
+    "crossStreet": {
+      "S": "(Betw. Madison &amp; Park Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 33
+    },
+    "address": {
+      "S": "155 East 22nd Street"
+    },
+    "groupName": {
+      "S": "Manhattan"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Open Anniv Last Tuesday. All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 34
+    },
+    "address": {
+      "S": "7 East 10th Street"
+    },
+    "groupName": {
+      "S": "N.y.u. (now You Understand)"
+    },
+    "crossStreet": {
+      "S": "(Betw 5th Avenue &amp; University Place)"
+    },
+    "notes": {
+      "S": "Tue.2pm=11th Step Meditation, Thu.12:30pm=Topic, Fri.12:30pm Note: There Is No 2:00 Meeting On The Last Day Of The Month Anniv. Last Weekday of the Month"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 35
+    },
+    "address": {
+      "S": "315 West 22nd Street"
+    },
+    "groupName": {
+      "S": "Never Had A Legal Drink"
+    },
+    "crossStreet": {
+      "S": "(Betw. 8th &amp; 9th Avenues)"
+    },
+    "notes": {
+      "S": "Anniv. Last Thursday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 36
+    },
+    "address": {
+      "S": "15 Rutherford Place"
+    },
+    "groupName": {
+      "S": "New Life In Sobriety"
+    },
+    "crossStreet": {
+      "S": "(Betw 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "T 1st Monday, Anniv Last Friday. All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 37
+    },
+    "address": {
+      "S": "25 East 15th Street"
+    },
+    "groupName": {
+      "S": "Ninjas In Recovery"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 38
+    },
+    "address": {
+      "S": "175 9th Avenue"
+    },
+    "groupName": {
+      "S": "Ninth Avenue (:ii)"
+    },
+    "crossStreet": {
+      "S": "(Enter thru gate on 21st Street Betw. 9th &amp; 10th Avenues)"
+    },
+    "notes": {
+      "S": "Fri.6pm OD=11th Step Meditation, Fri.7:15pm O=Anniv Last Friday, +HIV Topic LGBTQ Friendly.  All are welcome. Fri 7:15 CD=Relationships in Sobriety Business meeting at Holy Apostoles on 1st Monday a"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 39
+    },
+    "address": {
+      "S": "19 Union Square West"
+    },
+    "groupName": {
+      "S": "Oadw (once A Drunk Woman)"
+    },
+    "crossStreet": {
+      "S": "(Betw. 5th Avenue &amp; Broadway)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting except for last Tuesday of the month."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 40
+    },
+    "address": {
+      "S": "155 East 22nd Street"
+    },
+    "groupName": {
+      "S": "P.a.x"
+    },
+    "crossStreet": {
+      "S": "(Between Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Mon.BB Meeting is in the basement, Tue.6:45pm=T Last Tue. Basement is not Wheel Chair Accessible."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 41
+    },
+    "address": {
+      "S": "423 East 23rd Street"
+    },
+    "groupName": {
+      "S": "Pot Luck"
+    },
+    "crossStreet": {
+      "S": "(@ Main entrance is East of 1st Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 42
+    },
+    "address": {
+      "S": "209 East 16th Street"
+    },
+    "groupName": {
+      "S": "Potpourri"
+    },
+    "crossStreet": {
+      "S": "(Betw 3rd Avenue &amp; Rutherford Place)"
+    },
+    "notes": {
+      "S": "T Last Tuesday, Thu.=Topic"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 43
+    },
+    "address": {
+      "S": "411 East 12th Street"
+    },
+    "groupName": {
+      "S": "Primetime Nyc (ii)"
+    },
+    "crossStreet": {
+      "S": "(Between 1st Avenue &amp; Avenue A)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 44
+    },
+    "address": {
+      "S": "209 East 16th Street"
+    },
+    "groupName": {
+      "S": "Saturday Beginners"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Beginners meeting meets in Olmsted Hall Big Book topic meeting meets in the Music Room"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 45
+    },
+    "address": {
+      "S": "239 East 21st Street"
+    },
+    "groupName": {
+      "S": "Saturday Weekenders"
+    },
+    "crossStreet": {
+      "S": "(Betw. 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 46
+    },
+    "address": {
+      "S": "12 West 12th Street"
+    },
+    "groupName": {
+      "S": "Save Her A Seat"
+    },
+    "crossStreet": {
+      "S": "(Betw. 5th &amp; 6th Avenues)"
+    },
+    "notes": {
+      "S": "Tue=S Last Tue. & focus is on women with 5 years of sobriety or more.  All are welcome Fri=O Last Fri. & focus is on women with 5 years of sobriety or less.  All are welcome. Friday beginners = Trans Welcome"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 47
+    },
+    "address": {
+      "S": "44 2nd Avenue"
+    },
+    "groupName": {
+      "S": "Second Avenue Clean And Dry"
+    },
+    "crossStreet": {
+      "S": "(Betw. East 2nd &amp; 3rd Streets)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 48
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Sober Miracles"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "S&M Lifestyles"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 49
+    },
+    "address": {
+      "S": "12 West 11th Street"
+    },
+    "groupName": {
+      "S": "Sobriety On The Square"
+    },
+    "crossStreet": {
+      "S": "(Betw 5th Avenue &amp; Avenue of the Americas)"
+    },
+    "notes": {
+      "S": "T Last Tue., Fri=Topic, Sat=11th Step Meditation"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 50
+    },
+    "address": {
+      "S": "116 West 11th Street"
+    },
+    "groupName": {
+      "S": "Speaker Magic"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 51
+    },
+    "address": {
+      "S": "80 5th Avenue"
+    },
+    "groupName": {
+      "S": "Straight 12 (:ii)  Downtown Saturday Night"
+    },
+    "crossStreet": {
+      "S": "(@ 14th Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 52
+    },
+    "address": {
+      "S": "116 W. 11th Street"
+    },
+    "groupName": {
+      "S": "Sunday At Six"
+    },
+    "crossStreet": {
+      "S": "(Between 6th and 7th Avenues)"
+    },
+    "notes": {
+      "S": "TEMPORARILY MEETING AT THE LGBT CENTER 208 W 13TH UNTIL FURTHER NOTICE"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 53
+    },
+    "address": {
+      "S": "155 East 22nd Street"
+    },
+    "groupName": {
+      "S": "Sunday Morning Meditation"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Meeting In Basement 11th Step Meditation Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 54
+    },
+    "address": {
+      "S": "319 Eastr 24th Street"
+    },
+    "groupName": {
+      "S": "Sunday Nooners"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 55
+    },
+    "address": {
+      "S": "10 East Union Square"
+    },
+    "groupName": {
+      "S": "Survivors In Sobriety"
+    },
+    "crossStreet": {
+      "S": "(@14th Street)"
+    },
+    "notes": {
+      "S": "Focus is on dealing with cancer in recovery.  All are welcome"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 56
+    },
+    "address": {
+      "S": "206 East 11th Street"
+    },
+    "groupName": {
+      "S": "Svoboda"
+    },
+    "crossStreet": {
+      "S": "(Btw. 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Sunday=As Bill Sees It Ukrainian language translation is available if needed."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 57
+    },
+    "address": {
+      "S": "123 East 15th Street"
+    },
+    "groupName": {
+      "S": "T.g.i.f. &amp; S."
+    },
+    "crossStreet": {
+      "S": "(@ Irving Place)"
+    },
+    "notes": {
+      "S": "Fri B = 1st Time in AA Only"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 58
+    },
+    "address": {
+      "S": "411 East 12th Street"
+    },
+    "groupName": {
+      "S": "The 12th Street Workshop"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st Avenue &amp; Avenue A)"
+    },
+    "notes": {
+      "S": "Sun.4:30=Business Mtg Only 1st & Anniv Last Sunday Sun.7:30pm,Tue.5:30,Wed.8:30pm & Sat.10:30am=11th Step Meditation Mon.5:30=Gratitude & Sat.7:30am=AA Grapevine"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 59
+    },
+    "address": {
+      "S": "125 West 14th Street"
+    },
+    "groupName": {
+      "S": "The Fellowship Club"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th &amp; 7th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 60
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Transgender Focus"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Trans-female focus"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 61
+    },
+    "address": {
+      "S": "10 Union Square East"
+    },
+    "groupName": {
+      "S": "Twelve At Six"
+    },
+    "crossStreet": {
+      "S": "(Betw. 14th &amp; 15th Streets @ 4th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 62
+    },
+    "address": {
+      "S": "155 West 22nd Street"
+    },
+    "groupName": {
+      "S": "Upon Awakening"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th &amp; 7th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 63
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Village Agnostics"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Sun.5:30pm meets only on the last Sunday of the month No Prayers - All Welcome - Check listing for Rm #"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 64
+    },
+    "address": {
+      "S": "12 West 12th Street"
+    },
+    "groupName": {
+      "S": "Village Open Discussion  (v.o.d.)"
+    },
+    "crossStreet": {
+      "S": "(at 5th Avenue between 11th and 12th Streets)"
+    },
+    "notes": {
+      "S": "1st & 3rd Wk=Step/Big Book , 2nd & 4th Wk=Promises"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 65
+    },
+    "address": {
+      "S": "20 Washington Square North"
+    },
+    "groupName": {
+      "S": "Village Sober"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 66
+    },
+    "address": {
+      "S": "344 East 14th Street"
+    },
+    "groupName": {
+      "S": "Weekenders"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Please Do Not Call the Y for Meeting Info."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 67
+    },
+    "address": {
+      "S": "155 West 22nd Street"
+    },
+    "groupName": {
+      "S": "West 22nd Street Sobriety"
+    },
+    "crossStreet": {
+      "S": "(Off of 7th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 68
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Westwingers"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Lesbian and gay focus.  All are welcome Meeting format is \\\"Round Robin.\\\""
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 69
+    },
+    "address": {
+      "S": "602 East 9th Street"
+    },
+    "groupName": {
+      "S": "Wholesale Miracles"
+    },
+    "crossStreet": {
+      "S": "(@ Avenue B)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 70
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Women Now"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Topic Meeting & Anniv. Last Tuesday."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 71
+    },
+    "address": {
+      "S": "208 West 13th Street"
+    },
+    "groupName": {
+      "S": "Women Together (:i)"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting Lesbian Focus.  All are welcome"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 72
+    },
+    "address": {
+      "S": "19 Union Square West"
+    },
+    "groupName": {
+      "S": "Women\\'s Saturday Eleventh Step Meditation"
+    },
+    "crossStreet": {
+      "S": "(Enter on 15th Street)"
+    },
+    "notes": {
+      "S": "11th Step Meditation Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 73
+    },
+    "address": {
+      "S": "173 East 3rd Street"
+    },
+    "groupName": {
+      "S": "Works In Progress"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Rotating Literature"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m03"
+    },
+    "gid": {
+      "N": 74
+    },
+    "address": {
+      "S": "50 East 7th Street"
+    },
+    "groupName": {
+      "S": "Young And Wise"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; 2nd Avenue)"
+    },
+    "notes": {
+      "S": "Basement"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "4 The Grace"
+    },
+    "crossStreet": {
+      "S": "(Betw Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "303 West 42nd Street"
+    },
+    "groupName": {
+      "S": "42nd At 9:00pm"
+    },
+    "crossStreet": {
+      "S": "(Betw 8th &amp; 9th Avenues)"
+    },
+    "notes": {
+      "S": "Sat=A.A. Literature"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "303 West 42nd Street"
+    },
+    "groupName": {
+      "S": "A New Freedom"
+    },
+    "crossStreet": {
+      "S": "(Betw. 8th &amp; 9th Avenues)"
+    },
+    "notes": {
+      "S": "Sun=11th Step, Wed=Gratitude, Thu=Daily Reflections"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "305 7th Avenue"
+    },
+    "groupName": {
+      "S": "Abingdon Square In Chelsea"
+    },
+    "crossStreet": {
+      "S": "(Betw. 27th &amp; 28th Streets)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "1 West 53rd Street"
+    },
+    "groupName": {
+      "S": "Adventures In Sobriety"
+    },
+    "crossStreet": {
+      "S": "(Betw 5th &amp; 6th Avenues)"
+    },
+    "notes": {
+      "S": "Gay & Lesbian Focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "303 West 42nd Street"
+    },
+    "groupName": {
+      "S": "Alanon House   (aa Meetings Only)"
+    },
+    "crossStreet": {
+      "S": "(@ Corner of 8th Avenue)"
+    },
+    "notes": {
+      "S": "Sun.2pm=Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "133 West 46th Street"
+    },
+    "groupName": {
+      "S": "Amazing Grace"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "T Last Thursday All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "441 West 26th Street"
+    },
+    "groupName": {
+      "S": "Annex (:i)"
+    },
+    "crossStreet": {
+      "S": "(Betw. 9th &amp; 10th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "446 West 33rd Street"
+    },
+    "groupName": {
+      "S": "Annex (:ii)"
+    },
+    "crossStreet": {
+      "S": "(@ 10th Avenue)"
+    },
+    "notes": {
+      "S": "Gay & Lesbian focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Artists In Recovery"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Beginners"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": "Readings from Living Sober"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Beginners"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "339 West 47th Street"
+    },
+    "groupName": {
+      "S": "Between Shows"
+    },
+    "crossStreet": {
+      "S": "(Betw 8th &amp; 9th Avenues)"
+    },
+    "notes": {
+      "S": "Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "303 West 42nd St Rm 306"
+    },
+    "groupName": {
+      "S": "Blueprint For Living"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "139 West 31st Street"
+    },
+    "groupName": {
+      "S": "Bookshop At Noon"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th &amp; 7th Avenues)"
+    },
+    "notes": {
+      "S": "No Meeting on Legal Holidays All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "422 West 57th Street"
+    },
+    "groupName": {
+      "S": "Clean And Dry"
+    },
+    "crossStreet": {
+      "S": "(Betw 9th &amp; 10th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "211 West 30th Street"
+    },
+    "groupName": {
+      "S": "Commuters Special"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues, Basement)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "D.i.v.a.  (divinely Inspired Vivacious Alcoholics)"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "1 West 53rd Street"
+    },
+    "groupName": {
+      "S": "Fifth Avenue Step"
+    },
+    "crossStreet": {
+      "S": "(Betw. 5th &amp; 6th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "422 West 57th Street"
+    },
+    "groupName": {
+      "S": "Fireside  (:i)  Weekday Meetings Only"
+    },
+    "crossStreet": {
+      "S": "(Betw 9th &amp; 10th Avenues)"
+    },
+    "notes": {
+      "S": "Tue.12:30 = T 1st Tuesday Beginners upstairs; other meetings in the chapel"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "7 West 55th Street"
+    },
+    "groupName": {
+      "S": "Foglifters"
+    },
+    "crossStreet": {
+      "S": "(@ 5th Avenue)"
+    },
+    "notes": {
+      "S": "Monday thru Thursday Beginners Meeting 5th floor Monday thru Thursday Open Discussion 3rd floor Wednesday Step Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Forty"
+    },
+    "crossStreet": {
+      "S": "(Betw Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 23
+    },
+    "address": {
+      "S": "729 7th Avenue"
+    },
+    "groupName": {
+      "S": "Green Room"
+    },
+    "crossStreet": {
+      "S": "(@ 49th Street)"
+    },
+    "notes": {
+      "S": "Focus is on those in the entertainment industry.  All are welcome. As Bill Sees It"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 24
+    },
+    "address": {
+      "S": "538 West 47th Street"
+    },
+    "groupName": {
+      "S": "Grupo Buena Voluntad"
+    },
+    "crossStreet": {
+      "S": "(Betw 10th &amp; 11th Avenuess)"
+    },
+    "notes": {
+      "S": "All meetings are Open Discussion format."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 25
+    },
+    "address": {
+      "S": "1000 Tenth Avenue"
+    },
+    "groupName": {
+      "S": "Hell\\'s Kitchen"
+    },
+    "crossStreet": {
+      "S": "(Betw 58th &amp; 59th Streets)"
+    },
+    "notes": {
+      "S": "Anniv. 1st Monday, T 2nd & S Last Thursday, NOTE: On legal holidays, the meeting meets on the 1st Floor (Ask for the room at the reception desk)"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 26
+    },
+    "address": {
+      "S": "303 West 42nd Street"
+    },
+    "groupName": {
+      "S": "Henry Hudson"
+    },
+    "crossStreet": {
+      "S": "(@ Corner of 8th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 27
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Joe And Charlie Cd Meeting"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": "Big Book Workshop"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 28
+    },
+    "address": {
+      "S": "307 West 26th Street"
+    },
+    "groupName": {
+      "S": "Learning To Live (:i)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 29
+    },
+    "address": {
+      "S": "405 West 59th Street"
+    },
+    "groupName": {
+      "S": "Lucky Ones"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Room LL2"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 30
+    },
+    "address": {
+      "S": "303 West 42nd Street"
+    },
+    "groupName": {
+      "S": "Midnight In Midtown"
+    },
+    "crossStreet": {
+      "S": "(Betw 8th &amp; 9th Avenues - Room 404)"
+    },
+    "notes": {
+      "S": "T Last Sunday, Mon=Came To Believe, Last Sat. Open Anniversary Last Sat. meets at 252 West 46th Street"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 31
+    },
+    "address": {
+      "S": "422 W. 57th St."
+    },
+    "groupName": {
+      "S": "Miracle"
+    },
+    "crossStreet": {
+      "S": "(Betw. 9th and 10th Aves.)"
+    },
+    "notes": {
+      "S": "Open on Holidays."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 32
+    },
+    "address": {
+      "S": "133 West 46th Street"
+    },
+    "groupName": {
+      "S": "Morning Call"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th &amp; 7th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 33
+    },
+    "address": {
+      "S": "133 West 46th Street"
+    },
+    "groupName": {
+      "S": "New But West"
+    },
+    "crossStreet": {
+      "S": "(Betw. 6th &amp; 7th Avenue)"
+    },
+    "notes": {
+      "S": "Tue.Step=#\\'s 4-7, Wed.5:30=Grapevine Topic, Thu.12:30 Step=#\\'s 4-7 Thu.5:30=T last Thu.,Fri.BB=T last Fri. Fri.Step=#\\'s 8-12"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 34
+    },
+    "address": {
+      "S": "303 West 42nd Street"
+    },
+    "groupName": {
+      "S": "New Phoenix"
+    },
+    "crossStreet": {
+      "S": "(Betw. 8th &amp; 9th Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 35
+    },
+    "address": {
+      "S": "296 9th Avenue"
+    },
+    "groupName": {
+      "S": "Ninth Avenue (:i)"
+    },
+    "crossStreet": {
+      "S": "(Corner of West 28th Street)"
+    },
+    "notes": {
+      "S": "Business meeting held on 1st Monday at 7:45pm LGBTQ Friendly.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 36
+    },
+    "address": {
+      "S": "139 West 31st Street"
+    },
+    "groupName": {
+      "S": "Nu Garden"
+    },
+    "crossStreet": {
+      "S": "(Betw 6th &amp; 7th Avenues)"
+    },
+    "notes": {
+      "S": "All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 37
+    },
+    "address": {
+      "S": "1 West 53rd Street"
+    },
+    "groupName": {
+      "S": "Park Bench   (:i)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 38
+    },
+    "address": {
+      "S": "484 West 43rd Street"
+    },
+    "groupName": {
+      "S": "Powerless"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Fri=Living Sober, Sat=Promises"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 39
+    },
+    "address": {
+      "S": "7 West 55th Street"
+    },
+    "groupName": {
+      "S": "Promises"
+    },
+    "crossStreet": {
+      "S": "(@ 5th Av)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 40
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Promises"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8 Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 41
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Rainbow Room"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": "Gay, Lesbian, Bisexual & Transgender Focus.  All are welcome. *Last Saturday of month=\\\"Open Anniversary\\\""
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 42
+    },
+    "address": {
+      "S": "4 West 43rd Street"
+    },
+    "groupName": {
+      "S": "Renaissance"
+    },
+    "crossStreet": {
+      "S": "(Off of 5th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 43
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Saturday Rotating 12 Step"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": "Rotating Step meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 44
+    },
+    "address": {
+      "S": "296 Ninth Avenue"
+    },
+    "groupName": {
+      "S": "Spiritual Fridays"
+    },
+    "crossStreet": {
+      "S": "(@28th street, Enter at 9th avenue, small building south of the church)"
+    },
+    "notes": {
+      "S": "Topic meeting, focus is on Spirituality"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 45
+    },
+    "address": {
+      "S": "1 West 53rd Street"
+    },
+    "groupName": {
+      "S": "St. Thomas A.m."
+    },
+    "crossStreet": {
+      "S": "(@ 5th Avenue)"
+    },
+    "notes": {
+      "S": "Round Robin Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 46
+    },
+    "address": {
+      "S": "210 West 31st Street"
+    },
+    "groupName": {
+      "S": "Statler At Noon"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th &amp; 8th Aves)"
+    },
+    "notes": {
+      "S": "T Last Thursday; S other Thursdays All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 47
+    },
+    "address": {
+      "S": "422 West 57th Street"
+    },
+    "groupName": {
+      "S": "Steps And Traditions On Wednesday"
+    },
+    "crossStreet": {
+      "S": "(Betw 9th and 10th Avenue)"
+    },
+    "notes": {
+      "S": "T-1st Wednesday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 48
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Sunday Night Beginners"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; 8th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 49
+    },
+    "address": {
+      "S": "134 West 29th Street"
+    },
+    "groupName": {
+      "S": "Tuesday Sober Agnostics"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Agnostic- no prayer"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 50
+    },
+    "address": {
+      "S": "1000 Tenth Avenue"
+    },
+    "groupName": {
+      "S": "West 58th Street Step"
+    },
+    "crossStreet": {
+      "S": "(Betw 58th &amp; 59th Streets)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 51
+    },
+    "address": {
+      "S": "446 West 33rd Street"
+    },
+    "groupName": {
+      "S": "Women Over Forty"
+    },
+    "crossStreet": {
+      "S": "(Betw. 9th &amp; 10th Avenues)"
+    },
+    "notes": {
+      "S": "S 1st, C 2nd, BB 3rd, O Anniversary Meeting 4th Friday Women\\'s Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 52
+    },
+    "address": {
+      "S": "423 West 46th Street"
+    },
+    "groupName": {
+      "S": "Young In 164"
+    },
+    "crossStreet": {
+      "S": "(Betw. 9th and 10th)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m04"
+    },
+    "gid": {
+      "N": 53
+    },
+    "address": {
+      "S": "252 West 46th Street"
+    },
+    "groupName": {
+      "S": "Young People\\'s Meeting"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Young People BB Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "122 East 37th Street"
+    },
+    "groupName": {
+      "S": "Aa Literature"
+    },
+    "crossStreet": {
+      "S": "(Betw Park &amp; Lexington Avenues)"
+    },
+    "notes": {
+      "S": "FRONT BASEMENT ONLY"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "30 East 35th Street"
+    },
+    "groupName": {
+      "S": "Breakfast Club"
+    },
+    "crossStreet": {
+      "S": "(Betw Madison &amp; Park Avenues)"
+    },
+    "notes": {
+      "S": "All meetings are Round Robin format except Thursday. Tue=Alternating Step/Trad."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "350 East 56th Street"
+    },
+    "groupName": {
+      "S": "Carlyle"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st  &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "3rd Floor library"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "619 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "City Group"
+    },
+    "crossStreet": {
+      "S": "(Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "T -7:30am last Mon., Anniv -12:30 Last Thursday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "122 East 37th Street"
+    },
+    "groupName": {
+      "S": "Courage To Change"
+    },
+    "crossStreet": {
+      "S": "(Betw. Park &amp; Lexington Avenues )"
+    },
+    "notes": {
+      "S": "Wed.6:15 BB=OD Big Book Study Fri.7:30pm=Anniv. Meeting every Fri."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "28 East 35th Street"
+    },
+    "groupName": {
+      "S": "Empire State"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "T Last Wednesday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "350 East 56th Street"
+    },
+    "groupName": {
+      "S": "Gotham"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Beginners Meeting 2nd & 4th Sunday Step Meeting 1st &3rd Sunday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "283 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Grand Central"
+    },
+    "crossStreet": {
+      "S": "(Betw 36th &amp; 37th Streets)"
+    },
+    "notes": {
+      "S": "T=Last Tuesday, Fri=Anniv. 2nd to Last Friday. All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "122 East 37th Street"
+    },
+    "groupName": {
+      "S": "Grupo Brasil"
+    },
+    "crossStreet": {
+      "S": "(Betw. Park &amp; Lexington Avenues)"
+    },
+    "notes": {
+      "S": "Portugese speaking meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "619 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Life Line"
+    },
+    "crossStreet": {
+      "S": "(Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "141 East 43rd Street"
+    },
+    "groupName": {
+      "S": "Lunch Bunch"
+    },
+    "crossStreet": {
+      "S": "(Betw. Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Enter main Church entrance, turn left, meeting is downstairs. T 3rd Wed. Open Anniv. or Open Disc. Meeting last Fri."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "122 E 37TH St."
+    },
+    "groupName": {
+      "S": "Lunchtime Express At The Mustard Seed"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "122 East 37th Street"
+    },
+    "groupName": {
+      "S": "Meditation Saturday Night"
+    },
+    "crossStreet": {
+      "S": "(Betw. Park &amp; Lexington Avenues)"
+    },
+    "notes": {
+      "S": "11th S Meditation ENT BASEMENT ONLY"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "141 East 43rd Street"
+    },
+    "groupName": {
+      "S": "Monday Men"
+    },
+    "crossStreet": {
+      "S": "(Betw. Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "209 Madison Avenue"
+    },
+    "groupName": {
+      "S": "Murray Hill"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "No Meetings on Legal Holidays."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "122 East 37th Street"
+    },
+    "groupName": {
+      "S": "Mustard Seed"
+    },
+    "crossStreet": {
+      "S": "(Betw Park &amp; Lexington Avenues)"
+    },
+    "notes": {
+      "S": "Sun.7:30am,Tue.6:15pm B & Wed.6:15pm C =Meditation Wkshp., Sun.9:30am Step=Back to Basics, Fri.7:30pm=Anniv.every Fri. Thurs. 8am back room, Gratitude"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "619 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Rebellion Dogs"
+    },
+    "crossStreet": {
+      "S": "(Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Living Sober"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "240 East 31st Street"
+    },
+    "groupName": {
+      "S": "Saturday East"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Focus is on members under 60 days.  All are welcome. Anniversaries last week of month"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "114 East 35th Street"
+    },
+    "groupName": {
+      "S": "Saturday Step"
+    },
+    "crossStreet": {
+      "S": "(Betw. Park &amp; Lexington Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "230 East 60th Street"
+    },
+    "groupName": {
+      "S": "Serenity East"
+    },
+    "crossStreet": {
+      "S": "(Betw 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Fri.6:30=Steps 3 & 11"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "244 East 58th Street"
+    },
+    "groupName": {
+      "S": "Serenity East (:i)"
+    },
+    "crossStreet": {
+      "S": "(Between 2nd and 3rd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "619 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Silkworth Women\\'s"
+    },
+    "crossStreet": {
+      "S": "(Enter on 54th Street, Betw. Lexington &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 23
+    },
+    "address": {
+      "S": "325 Park Avenue"
+    },
+    "groupName": {
+      "S": "St. Bart\\'s Twelve"
+    },
+    "crossStreet": {
+      "S": "(Betw. East 50th &amp; 51st Streets)"
+    },
+    "notes": {
+      "S": "Anniv. Last Mon., T-Last Wed., Topic-Last Fri. All meetings are OPEN to Public NOTE: Monday & Wednesday in Choir Room. Friday in Vestry Room. Also check the Board at Church entrance."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 24
+    },
+    "address": {
+      "S": "236 EAST 31st STREET "
+    },
+    "groupName": {
+      "S": "Straight 12"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 25
+    },
+    "address": {
+      "S": "308 East 55th Street"
+    },
+    "groupName": {
+      "S": "Templeton"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 26
+    },
+    "address": {
+      "S": "244 East 58th Street"
+    },
+    "groupName": {
+      "S": "Trafalgar"
+    },
+    "crossStreet": {
+      "S": "(Betw. 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 27
+    },
+    "address": {
+      "S": "244 East 58th Street"
+    },
+    "groupName": {
+      "S": "Tudor"
+    },
+    "crossStreet": {
+      "S": "(Betw. 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m05"
+    },
+    "gid": {
+      "N": 28
+    },
+    "address": {
+      "S": "109 East 50th Street"
+    },
+    "groupName": {
+      "S": "Women\\'s Eleventh Step"
+    },
+    "crossStreet": {
+      "S": "(Between Park &amp; Lexington)"
+    },
+    "notes": {
+      "S": "11th Step, Anniv. 3rd Wednesday No Smoking"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "A New Day"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Bway.)"
+    },
+    "notes": {
+      "S": "Mon=As Bill Sees It, Wed=Living Sober"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "120 West 69th Street"
+    },
+    "groupName": {
+      "S": "A Vision For You"
+    },
+    "crossStreet": {
+      "S": "(Betw Columbus Avenue &amp; Bway)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "422 West 57th Street"
+    },
+    "groupName": {
+      "S": "After Eight (:i)"
+    },
+    "crossStreet": {
+      "S": "(Betw 9th and 10th Ave)"
+    },
+    "notes": {
+      "S": "Tues= AA Literature/Topic meeting The group\\'s focus is on long-term sobriety; but all A.A. members are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "164 West 74th Street"
+    },
+    "groupName": {
+      "S": "After Eight (:ii)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "Altered Attitudes"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Bway.)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "144 West 90th Street"
+    },
+    "groupName": {
+      "S": "Amsterdam"
+    },
+    "crossStreet": {
+      "S": "(Betw. Columbus &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": "T - Last Friday, Anniversary-Last Saturday."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "141 West 73rd Street"
+    },
+    "groupName": {
+      "S": "Ansonia"
+    },
+    "crossStreet": {
+      "S": "(Betw Columbus &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": "Anniv. Meeting last Monday."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "4 West 76th Street"
+    },
+    "groupName": {
+      "S": "Atlantic West Step &amp; Tradition"
+    },
+    "crossStreet": {
+      "S": "(Between Central Park West &amp; Columbus Avenue)"
+    },
+    "notes": {
+      "S": "Alternating Step and Tradition meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "221 West 107th Street"
+    },
+    "groupName": {
+      "S": "Bloomingdale"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Bway )"
+    },
+    "notes": {
+      "S": "All Meetings Are Non-Smoking. Anniversary meeting last Tues at 6:15"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "Broadway At 96th"
+    },
+    "crossStreet": {
+      "S": "(Btw. Amsterdam &amp; Broadway)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "215 West 82nd Street"
+    },
+    "groupName": {
+      "S": "Cadillacs For Everyone"
+    },
+    "crossStreet": {
+      "S": "(Betw Amsterdam Avenue &amp; Bway)"
+    },
+    "notes": {
+      "S": "Men\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "601 West 114th Street"
+    },
+    "groupName": {
+      "S": "Campus Cheer"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "West 76th Street"
+    },
+    "groupName": {
+      "S": "Central Park West"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "T Last Thursday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "5 West 63rd Street"
+    },
+    "groupName": {
+      "S": "Chelsea Riverside"
+    },
+    "crossStreet": {
+      "S": "(Betw. Central Park West &amp; Broadway)"
+    },
+    "notes": {
+      "S": "10:15pm = Topic Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "4 West 76th Street"
+    },
+    "groupName": {
+      "S": "Chock Full Of Sobriety"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "S 1st & T Last Friday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "160 Central Park West"
+    },
+    "groupName": {
+      "S": "Classen Hall (:ii)"
+    },
+    "crossStreet": {
+      "S": "(@ 76th Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "152 West 66th Street"
+    },
+    "groupName": {
+      "S": "Classen Hall Step Meeting  ( :i )"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; Amsterdam Avenue)"
+    },
+    "notes": {
+      "S": "Enter basement level @ red door on left side of the building."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "3 West 95th Street"
+    },
+    "groupName": {
+      "S": "Columbus At Five"
+    },
+    "crossStreet": {
+      "S": "(Betw Central Park West &amp; Columbus Avenue)"
+    },
+    "notes": {
+      "S": "Children are welcome at all meetings. All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "251 West 80th Street"
+    },
+    "groupName": {
+      "S": "Eightieth Street Beginners"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "111 West 71st Street"
+    },
+    "groupName": {
+      "S": "Fast Break"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "5 West 63rd Street"
+    },
+    "groupName": {
+      "S": "Fast Break Weekend"
+    },
+    "crossStreet": {
+      "S": "(Betw CPW &amp; Bway)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "5 West 63rd Street"
+    },
+    "groupName": {
+      "S": "Fireside  (:ii)  Weekend Meetings Only"
+    },
+    "crossStreet": {
+      "S": "(Betw Central Park West &amp; Broadway)"
+    },
+    "notes": {
+      "S": "T 1st Saturday @ 12:30pm"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 23
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "First Things First"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Broadway)"
+    },
+    "notes": {
+      "S": "Last Sat. of month at 10:15 = anniversary meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 24
+    },
+    "address": {
+      "S": "26 West 84th Street"
+    },
+    "groupName": {
+      "S": "Friday Night Step"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "MEETING NOW TAKES PLACE YEAR ROUND! Up concrete steps, take stairs on left, 2nd Floor (Sandford Hall)"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 25
+    },
+    "address": {
+      "S": "200 West 97th Street"
+    },
+    "groupName": {
+      "S": "Grupo Camino Real"
+    },
+    "crossStreet": {
+      "S": "(@ Amsterdam Avenue)"
+    },
+    "notes": {
+      "S": "Spanish speaking meetings."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 26
+    },
+    "address": {
+      "S": "218 West 108th Street"
+    },
+    "groupName": {
+      "S": "Grupo Dulces 24"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Broadway)"
+    },
+    "notes": {
+      "S": "B Last Friday Bilingual (English-Spanish) Meetings."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 27
+    },
+    "address": {
+      "S": "125 West 104th Street"
+    },
+    "groupName": {
+      "S": "Grupo Luz Divina"
+    },
+    "crossStreet": {
+      "S": "(Betw. Columbus &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": "Spanish speaking meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 28
+    },
+    "address": {
+      "S": "141 West 73rd Street"
+    },
+    "groupName": {
+      "S": "Hargrave"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 29
+    },
+    "address": {
+      "S": "236 West 73rd Street"
+    },
+    "groupName": {
+      "S": "Lambda West"
+    },
+    "crossStreet": {
+      "S": "(West of Broadway)"
+    },
+    "notes": {
+      "S": "Wed.6pm=Interpreted for the deaf and hard of hearing. Gay Men & Women Focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 30
+    },
+    "address": {
+      "S": "165 West 105th Street"
+    },
+    "groupName": {
+      "S": "Manhattan Valley"
+    },
+    "crossStreet": {
+      "S": "(@ Amsterdam Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 31
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "Metropolis Men\\'s Meeting"
+    },
+    "crossStreet": {
+      "S": "(Btwn. Amsterdam Avenue and Broadway)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 32
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "Mid"
+    },
+    "crossStreet": {
+      "S": "(Betw Amsterdam &amp; Broadway)"
+    },
+    "notes": {
+      "S": "Mon=11th Step Meditation, Fri= Alt.Step & Tradition Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 33
+    },
+    "address": {
+      "S": "2504 Broadway"
+    },
+    "groupName": {
+      "S": "Morningside"
+    },
+    "crossStreet": {
+      "S": "(@ 93rd Street)"
+    },
+    "notes": {
+      "S": "All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 34
+    },
+    "address": {
+      "S": "405 West 114th Street"
+    },
+    "groupName": {
+      "S": "Morningside Heights Beginners"
+    },
+    "crossStreet": {
+      "S": "(1 Block East of  Amsterdam Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 35
+    },
+    "address": {
+      "S": "368 West End Ave"
+    },
+    "groupName": {
+      "S": "Never Too Late"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 36
+    },
+    "address": {
+      "S": "225 West 99th Street"
+    },
+    "groupName": {
+      "S": "Night Light"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Broadway)"
+    },
+    "notes": {
+      "S": "T 1st Monday Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 37
+    },
+    "address": {
+      "S": "251 West 100th Street"
+    },
+    "groupName": {
+      "S": "Night Light Beginners"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 38
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "Ninety"
+    },
+    "crossStreet": {
+      "S": "(Betw Amsterdam &amp; Broadway)"
+    },
+    "notes": {
+      "S": "Anniv. Last Thursday, Fri=Promises, Sat=As Bill Sees It"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 39
+    },
+    "address": {
+      "S": "26 West 84th Street"
+    },
+    "groupName": {
+      "S": "Oxford  (:i)"
+    },
+    "crossStreet": {
+      "S": "(Betw. Central Park West &amp; Columbus Avenue)"
+    },
+    "notes": {
+      "S": "Interpreted for the Deaf and Hard of Hearing No meetings on holidays On Ground Floor Mon. & Wed.; Basement on Thurs."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 40
+    },
+    "address": {
+      "S": "5 West 63rd Street"
+    },
+    "groupName": {
+      "S": "Promises Promises"
+    },
+    "crossStreet": {
+      "S": "(Betw. CPW &amp; Bway )"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 41
+    },
+    "address": {
+      "S": "552 West End Avenue"
+    },
+    "groupName": {
+      "S": "Renewal West"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; West End Avenue, Enter on 87th Street)"
+    },
+    "notes": {
+      "S": "Anniv.  Last Sunday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 42
+    },
+    "address": {
+      "S": "164 West 74 Street"
+    },
+    "groupName": {
+      "S": "Routes"
+    },
+    "crossStreet": {
+      "S": "(Betw. Columbus and Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 43
+    },
+    "address": {
+      "S": "340 West 85th Street"
+    },
+    "groupName": {
+      "S": "Rude Awakening"
+    },
+    "crossStreet": {
+      "S": "(Betw. West End Avenue &amp; Riverside Drive)"
+    },
+    "notes": {
+      "S": "Living Sober"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 44
+    },
+    "address": {
+      "S": "368 West End Avenue"
+    },
+    "groupName": {
+      "S": "Smithereens"
+    },
+    "crossStreet": {
+      "S": "(@ West 77th Street)"
+    },
+    "notes": {
+      "S": "All Meetings Are Non-Smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 45
+    },
+    "address": {
+      "S": "152 West 71st Street"
+    },
+    "groupName": {
+      "S": "Sober Stepping"
+    },
+    "crossStreet": {
+      "S": "(Betw Columbus Avenue &amp; Broadway)"
+    },
+    "notes": {
+      "S": "Alternates Betw.the Steps & Promises."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 46
+    },
+    "address": {
+      "S": "5 West 63rd Street"
+    },
+    "groupName": {
+      "S": "Sunday Men\\'s Topic"
+    },
+    "crossStreet": {
+      "S": "(Betw. Central Park West &amp; Broadway)"
+    },
+    "notes": {
+      "S": "Men\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 47
+    },
+    "address": {
+      "S": "131 West 72nd Street"
+    },
+    "groupName": {
+      "S": "Sunday West"
+    },
+    "crossStreet": {
+      "S": "(Betw. Columbus &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": "Round Robin Topic Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 48
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "Turn It Over"
+    },
+    "crossStreet": {
+      "S": "(Betw Amsterdam Avenue &amp; Broadway)"
+    },
+    "notes": {
+      "S": "T Last Friday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 49
+    },
+    "address": {
+      "S": "152 West 71st Street"
+    },
+    "groupName": {
+      "S": "Way Of Life"
+    },
+    "crossStreet": {
+      "S": "(Betw. Columbus Avenue &amp; Broadway)"
+    },
+    "notes": {
+      "S": "10am=As Bill Sees It, 11:15am=Topic Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 50
+    },
+    "address": {
+      "S": "30 West 68th Street"
+    },
+    "groupName": {
+      "S": "We Agnostics Of Nyc"
+    },
+    "crossStreet": {
+      "S": "(Betw Central Park West &amp; Columbus Avenue)"
+    },
+    "notes": {
+      "S": "S Last Thursday,  No Prayers."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 51
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "We Are Not Doctors (westside)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Issues of medication in recovery are discussed.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 52
+    },
+    "address": {
+      "S": "263 West 86th Street"
+    },
+    "groupName": {
+      "S": "West End"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 53
+    },
+    "address": {
+      "S": "306 West 102nd Street"
+    },
+    "groupName": {
+      "S": "Westside 11th Step Meditation Workshop"
+    },
+    "crossStreet": {
+      "S": "(Betw West End Avenue &amp; Riverside Drive)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 54
+    },
+    "address": {
+      "S": "152 West 71st Street"
+    },
+    "groupName": {
+      "S": "Westside Step"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 55
+    },
+    "address": {
+      "S": "26 West 84th Street"
+    },
+    "groupName": {
+      "S": "Westside Young People"
+    },
+    "crossStreet": {
+      "S": "(Betw. Columbus Avenue &amp; Central Park West)"
+    },
+    "notes": {
+      "S": "Anniv. Meeting Last Saturday."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 56
+    },
+    "address": {
+      "S": "595 Columbus Avenue"
+    },
+    "groupName": {
+      "S": "Without A Prayer"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 57
+    },
+    "address": {
+      "S": "306 West 102nd Street"
+    },
+    "groupName": {
+      "S": "Women Living Sober"
+    },
+    "crossStreet": {
+      "S": "(Betw. Riverside Drive &amp; West End Avenue)"
+    },
+    "notes": {
+      "S": "S 2nd Wednesday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 58
+    },
+    "address": {
+      "S": "213 West 82nd Street"
+    },
+    "groupName": {
+      "S": "Women West Aa"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Bway)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 59
+    },
+    "address": {
+      "S": "152 West 71st Street"
+    },
+    "groupName": {
+      "S": "Women\\'s Beginning Literature"
+    },
+    "crossStreet": {
+      "S": "(Between Broadway and Columbus Avenue)"
+    },
+    "notes": {
+      "S": "Wed= Alternate BB and Living Sober."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 60
+    },
+    "address": {
+      "S": "152 west 71st street"
+    },
+    "groupName": {
+      "S": "Women\\'s Eleventh Step Meeting"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 61
+    },
+    "address": {
+      "S": "152 West 71st Street"
+    },
+    "groupName": {
+      "S": "Women\\'s Tell It Like It Is"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 62
+    },
+    "address": {
+      "S": "160 Central Park West"
+    },
+    "groupName": {
+      "S": "Women\\'s Westside Topic"
+    },
+    "crossStreet": {
+      "S": "(Enter through side door on 76th Street)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m06"
+    },
+    "gid": {
+      "N": 63
+    },
+    "address": {
+      "S": "207 West 96th Street"
+    },
+    "groupName": {
+      "S": "Writing Sober"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam Avenue &amp; Bway )"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "A Baffled Lot"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Topic Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "48 East 80th Street"
+    },
+    "groupName": {
+      "S": "A.a. Traditions And History"
+    },
+    "crossStreet": {
+      "S": "(Betw Park &amp; Madison Avenues)"
+    },
+    "notes": {
+      "S": "Traditions Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "184 East 76th Street"
+    },
+    "groupName": {
+      "S": "Active"
+    },
+    "crossStreet": {
+      "S": "(Betw Lexington &amp; 3rd Avenues - Ring Bell)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Afternoon Awakening"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Mon=Living Sober, Thu=11 Step with meditation, Fri=3rd Step"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "1393 York Avenue"
+    },
+    "groupName": {
+      "S": "Atlantic Eleventh Step Meditation"
+    },
+    "crossStreet": {
+      "S": "(@ 74th Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "520 Park Avenue"
+    },
+    "groupName": {
+      "S": "Atlantic Group (:i)"
+    },
+    "crossStreet": {
+      "S": "(@ 60th Street)"
+    },
+    "notes": {
+      "S": "Three speaker"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "337 E. 74th St."
+    },
+    "groupName": {
+      "S": "Atlantic Group (:ii)"
+    },
+    "crossStreet": {
+      "S": "(Between First and Second Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "1157 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Atlantic Group (:iii)"
+    },
+    "crossStreet": {
+      "S": "(between 79th and 80th Streets)"
+    },
+    "notes": {
+      "S": "Two speaker"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "420 East 76th Street"
+    },
+    "groupName": {
+      "S": "Breaking Through"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; York Avenues)"
+    },
+    "notes": {
+      "S": "*Open Last Friday Check with front desk security for meeting room location."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "230 East 90th Street"
+    },
+    "groupName": {
+      "S": "Came To Believe"
+    },
+    "crossStreet": {
+      "S": "(Betw 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Anniv. Last Sunday; every other month."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "65 East 89th Street"
+    },
+    "groupName": {
+      "S": "Carnegie Hill"
+    },
+    "crossStreet": {
+      "S": "(@ Park &amp; Madison Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "865 Madison Avenue"
+    },
+    "groupName": {
+      "S": "Central"
+    },
+    "crossStreet": {
+      "S": "(@ East 71st Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "1296 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Chapter Five"
+    },
+    "crossStreet": {
+      "S": "(Enter through red door on Lexington Avenue, Betw 87th &amp; 88th Streets)"
+    },
+    "notes": {
+      "S": "Fri.6:15=Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Eleventh Step At Jan Hus"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "11th Step Meditation Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "1157 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Fearless"
+    },
+    "crossStreet": {
+      "S": "(@ East 80th Street)"
+    },
+    "notes": {
+      "S": "Topic Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Friday Central"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Friday Night Gay Men &amp; Women"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "1st Step Gay & lesbian focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "65 East 89th Street"
+    },
+    "groupName": {
+      "S": "Friday Night Men\\'s Step"
+    },
+    "crossStreet": {
+      "S": "(Betw Madison &amp; Park Avenues)"
+    },
+    "notes": {
+      "S": "Men\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "65 East 89th Street"
+    },
+    "groupName": {
+      "S": "Humanists Too"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Agnostic"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "I\\'m All In"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues )"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "135 East 96th Street"
+    },
+    "groupName": {
+      "S": "Into Action Manhattan"
+    },
+    "crossStreet": {
+      "S": "(between Lexington and Park Avenues)"
+    },
+    "notes": {
+      "S": "lower level"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Kitchen Table Meeting"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 23
+    },
+    "address": {
+      "S": "2 East 90th Street"
+    },
+    "groupName": {
+      "S": "Lenox Hill"
+    },
+    "crossStreet": {
+      "S": "(Betw 5th &amp; Madison Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 24
+    },
+    "address": {
+      "S": "1157 Lexington Avenue"
+    },
+    "groupName": {
+      "S": "Lex 80 Step"
+    },
+    "crossStreet": {
+      "S": "(Betw. 79th &amp; 80th Streets)"
+    },
+    "notes": {
+      "S": "Southside Chapel"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 25
+    },
+    "address": {
+      "S": "420 East 76th Street"
+    },
+    "groupName": {
+      "S": "Live And Let Live"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; York  Avenues)"
+    },
+    "notes": {
+      "S": "Thurs=Topic Meeting, Check in with security at front desk. Gay & lesbian focus.  All are welcome."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 26
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Madison 73"
+    },
+    "crossStreet": {
+      "S": "(Betw.1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "All Meetings Are Non-Smoking."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 27
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Meditation (expect Miracles)"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "All meetings are 11th Step Meditation format."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 28
+    },
+    "address": {
+      "S": "1285 Madison Avenue"
+    },
+    "groupName": {
+      "S": "Men\\'s Nyc Big Book Step Study"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Ring Bell for entry"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 29
+    },
+    "address": {
+      "S": "48 East 84th Street"
+    },
+    "groupName": {
+      "S": "Metropolitan"
+    },
+    "crossStreet": {
+      "S": "(Betw Madison &amp; Park Avenues, On Saturday enter via Park Avenue Entrance)"
+    },
+    "notes": {
+      "S": "Tue.6:30=Literature Topic,Sat=Meets in the Rectory. Wheel Chair Access on Tuesday & Sunday Only"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 30
+    },
+    "address": {
+      "S": "408 East 82nd Street"
+    },
+    "groupName": {
+      "S": "Monday East Topic"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; York Avenues)"
+    },
+    "notes": {
+      "S": "Round Robin format & No Meeting on Legal Holidays."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 31
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Monday Women"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "AA Literature Topic Meeting & Open last Monday. Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 32
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Morning Reflections"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Daily Reflections readings & round robin format Discussion"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 33
+    },
+    "address": {
+      "S": "125 East 85th Street"
+    },
+    "groupName": {
+      "S": "New Choices"
+    },
+    "crossStreet": {
+      "S": "(@ Lexington Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 34
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Open Book"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Big Book Study"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 35
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Our Primary Purpose"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 36
+    },
+    "address": {
+      "S": "865 Madison Avenue"
+    },
+    "groupName": {
+      "S": "Park Bench   (:ii)"
+    },
+    "crossStreet": {
+      "S": "(Betw. 71st &amp; 72nd Streets)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 37
+    },
+    "address": {
+      "S": "62 East 92nd Street"
+    },
+    "groupName": {
+      "S": "Park Madison"
+    },
+    "crossStreet": {
+      "S": "(Betw Madison &amp; Park Avenues)"
+    },
+    "notes": {
+      "S": "Tue.8pm=Topic Round Robin, Anniv Last Fri.@ 6:45 Church Closed Friday; No Meetings In July & August All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 38
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Perseverance"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 39
+    },
+    "address": {
+      "S": "420 East 87th Street"
+    },
+    "groupName": {
+      "S": "Recovery Room"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; York Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 40
+    },
+    "address": {
+      "S": "593 Park Avenue"
+    },
+    "groupName": {
+      "S": "Renewal East"
+    },
+    "crossStreet": {
+      "S": "(@ 64th Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 41
+    },
+    "address": {
+      "S": "65 East 89th Street"
+    },
+    "groupName": {
+      "S": "Renewal North"
+    },
+    "crossStreet": {
+      "S": "(Betw. Park &amp; Madison Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 42
+    },
+    "address": {
+      "S": "865 Madison Avenue"
+    },
+    "groupName": {
+      "S": "Rhinelander"
+    },
+    "crossStreet": {
+      "S": "(@ East 71st Street)"
+    },
+    "notes": {
+      "S": "Mon.6pm & Thu.6pm Meetings end @ 6:50pm."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 43
+    },
+    "address": {
+      "S": "543 Main St"
+    },
+    "groupName": {
+      "S": "Roosevelt Island Serenity"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 44
+    },
+    "address": {
+      "S": "413 East 79th Street"
+    },
+    "groupName": {
+      "S": "Seventy"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; York Avenues)"
+    },
+    "notes": {
+      "S": "Sun.10am=11th S, Tue.6am=Came To Believe Thu.6am=Step & Trad."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 45
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Sober Women"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Women\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 46
+    },
+    "address": {
+      "S": "310 East 67th Street"
+    },
+    "groupName": {
+      "S": "Step By Step"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 47
+    },
+    "address": {
+      "S": "331 E 70th St"
+    },
+    "groupName": {
+      "S": "Sunday On 70th"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 48
+    },
+    "address": {
+      "S": "411 East 68th Street"
+    },
+    "groupName": {
+      "S": "Sutton"
+    },
+    "crossStreet": {
+      "S": "(Betw. York &amp; 1st Avenues)"
+    },
+    "notes": {
+      "S": "Enter through Parish House"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 49
+    },
+    "address": {
+      "S": "2 East 90th Street"
+    },
+    "groupName": {
+      "S": "Three Twelves"
+    },
+    "crossStreet": {
+      "S": "(Enter thru the Family Chapel on 5th Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 50
+    },
+    "address": {
+      "S": "341 East 87th Street"
+    },
+    "groupName": {
+      "S": "Trinity"
+    },
+    "crossStreet": {
+      "S": "(Btw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Anniv Last Tuesday @ 7:15pm All meetings are non-smoking. Last Fri. @ 7PM = T"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 51
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "We Humanists"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "No prayers & a Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 52
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Wednesday East On Thursday"
+    },
+    "crossStreet": {
+      "S": "(Betw. 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Round Robin format"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m07"
+    },
+    "gid": {
+      "N": 53
+    },
+    "address": {
+      "S": "351 East 74th Street"
+    },
+    "groupName": {
+      "S": "Yorkville"
+    },
+    "crossStreet": {
+      "S": "(Betw 1st &amp; 2nd Avenues)"
+    },
+    "notes": {
+      "S": "Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "109 West 129th Street"
+    },
+    "groupName": {
+      "S": "A Chance To Live Again"
+    },
+    "crossStreet": {
+      "S": "(@ Lenox Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "240 West 145th Street"
+    },
+    "groupName": {
+      "S": "Aa It Works  Ii"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "Thu=Altern.BB, Living Sober & Other A.A. Literature. Fri.=Alternates between Step & Tradition."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "469 West 142nd Street"
+    },
+    "groupName": {
+      "S": "Attitude Adjustment"
+    },
+    "crossStreet": {
+      "S": "(Betw Convent &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": "Topic 1st Saturday."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "204 West 134th Street"
+    },
+    "groupName": {
+      "S": "Convent"
+    },
+    "crossStreet": {
+      "S": "(Betw 7th &amp; 8th Avenues)"
+    },
+    "notes": {
+      "S": "B-3rd Saturday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "2044 Adam Clayton Powell Blvd."
+    },
+    "groupName": {
+      "S": "Fellowship At Noon"
+    },
+    "crossStreet": {
+      "S": "(@ 122nd Street)"
+    },
+    "notes": {
+      "S": "T If there is a fifth Wednesday."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "469 West 142nd Street"
+    },
+    "groupName": {
+      "S": "Grupo Trasmitelo"
+    },
+    "crossStreet": {
+      "S": "(Betw. Amsterdam &amp; Convent Avenues)"
+    },
+    "notes": {
+      "S": "Spanish speaking meeting."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "521 W 126th St"
+    },
+    "groupName": {
+      "S": "Harlem Humanists"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Contact in Advance for Wheelcahir Accessibility"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "109 West 129th Street"
+    },
+    "groupName": {
+      "S": "K.i.s.s."
+    },
+    "crossStreet": {
+      "S": "(Betw Lenox Avenue &amp; Adam Clayton Powell Blvd)"
+    },
+    "notes": {
+      "S": "All meetings are non-smoking."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "469 West 142nd Street"
+    },
+    "groupName": {
+      "S": "Learning To Live Sober"
+    },
+    "crossStreet": {
+      "S": "(Betw Convent &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "2044 Seventh Avenue"
+    },
+    "groupName": {
+      "S": "Living Clean And Sober On 121st Street"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "S 2nd, BB 3rd, OD 4th, Living Sober 5th wk."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "127 West 127th Street"
+    },
+    "groupName": {
+      "S": "Meditation Comes To Harlem"
+    },
+    "crossStreet": {
+      "S": "(Betw. 7th and Lenox)"
+    },
+    "notes": {
+      "S": "Meeting is closed on holidays"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "310 West 139th Street"
+    },
+    "groupName": {
+      "S": "Mid"
+    },
+    "crossStreet": {
+      "S": "(Betw Eighth &amp; Edgecombe Avenues)"
+    },
+    "notes": {
+      "S": "T 1st Monday at 7PM Open 1st Friday 8:10pm, Pitch other Fridays 8:10pm"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "409 West 141st Street"
+    },
+    "groupName": {
+      "S": "Monday Night Challenge"
+    },
+    "crossStreet": {
+      "S": "(@ St. Nicholas Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "91 Claremont Avenue"
+    },
+    "groupName": {
+      "S": "Primary Purpose"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; Riverside Drive)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "1727 Amsterdam Avenue"
+    },
+    "groupName": {
+      "S": "Promises Two For One"
+    },
+    "crossStreet": {
+      "S": "(@ 145th Street)"
+    },
+    "notes": {
+      "S": "1st Sun-OD; 2nd Sun-S; 3rd Sun-Topic; 4th Sun-T; 5th Sun-OD"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "469 West 142nd Street"
+    },
+    "groupName": {
+      "S": "Reality Check"
+    },
+    "crossStreet": {
+      "S": "(Betw Convent &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": "S 4th Saturday Men\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "91 Claremont Avenue"
+    },
+    "groupName": {
+      "S": "Riverside"
+    },
+    "crossStreet": {
+      "S": "(1 Block West of Broadway &amp; 1/2 Block North of 120th Street)"
+    },
+    "notes": {
+      "S": "Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "219 West 132nd Street"
+    },
+    "groupName": {
+      "S": "Riverton"
+    },
+    "crossStreet": {
+      "S": "(Betw. Adam Clayton Powell Blvd. &amp; F. Douglass Blvd.)"
+    },
+    "notes": {
+      "S": "S 2nd & T 4th Tue All meetings are non-smoking.  No children allowed at meetings."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "211 West 129th Street"
+    },
+    "groupName": {
+      "S": "Salem"
+    },
+    "crossStreet": {
+      "S": "(@ Adam Clayton Powell Blvd.)"
+    },
+    "notes": {
+      "S": "O 2nd Wednesday"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "425 West 144th Street"
+    },
+    "groupName": {
+      "S": "Sober Adult Men"
+    },
+    "crossStreet": {
+      "S": "(Betw. Convent Avenue &amp; Hamilton Terrace)"
+    },
+    "notes": {
+      "S": "Men\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "204 West 134th Street"
+    },
+    "groupName": {
+      "S": "St. Nicholas"
+    },
+    "crossStreet": {
+      "S": "(Betw Adam C. Powell &amp; Frederick Douglas Blvds)"
+    },
+    "notes": {
+      "S": "S 2nd, C 3rd, BB 4th, & Grapevine 5th Thu."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "506 Lenox Avenue"
+    },
+    "groupName": {
+      "S": "Steps 3 And 11"
+    },
+    "crossStreet": {
+      "S": "(@ 135 Street)"
+    },
+    "notes": {
+      "S": "B 1st, OD 2nd, S3 3rd, C Literature 4th, & S11 5th Sun."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 23
+    },
+    "address": {
+      "S": "1727 Amsterdam Avenue"
+    },
+    "groupName": {
+      "S": "Sugar Hill"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 24
+    },
+    "address": {
+      "S": "1854 Amsterdam Avenue"
+    },
+    "groupName": {
+      "S": "Tuesday Big Book Study"
+    },
+    "crossStreet": {
+      "S": "(Corner of 152nd Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 25
+    },
+    "address": {
+      "S": "469 West 142nd Street"
+    },
+    "groupName": {
+      "S": "Uptown Big Book Workshop"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Meeting meets each Saturday from mid-August thru mid-December"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m08"
+    },
+    "gid": {
+      "N": 26
+    },
+    "address": {
+      "S": "58-66 West 135th Street"
+    },
+    "groupName": {
+      "S": "You May Care After"
+    },
+    "crossStreet": {
+      "S": "(Betw Malcolm X Boulevard &amp; 5th Avenue)"
+    },
+    "notes": {
+      "S": "Non-Smoking Meeting."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m09"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "35 East 125 Street"
+    },
+    "groupName": {
+      "S": "125"
+    },
+    "crossStreet": {
+      "S": "(@ Madison Avenue)"
+    },
+    "notes": {
+      "S": "O 2nd, S 3rd, Anniv. 4th & BB 5th Sat."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m09"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "223 East 117th Street"
+    },
+    "groupName": {
+      "S": "East Harlem"
+    },
+    "crossStreet": {
+      "S": "(Betw. 2nd &amp; 3rd Avenues)"
+    },
+    "notes": {
+      "S": "Living Sober 1st Tuesday."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m09"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "2126 2nd Avenue"
+    },
+    "groupName": {
+      "S": "Grupo Nueva Vida"
+    },
+    "crossStreet": {
+      "S": "(Betw. 109th &amp; 110th Streets)"
+    },
+    "notes": {
+      "S": "Spanish speaking meetings."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m09"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "22 East 119th Street"
+    },
+    "groupName": {
+      "S": "Harlem 1 Pm Recovery"
+    },
+    "crossStreet": {
+      "S": "(Betw. Madison &amp; 5th Avenues)"
+    },
+    "notes": {
+      "S": "ID REQUIRED TO ENTER BUILDING"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 1
+    },
+    "address": {
+      "S": "701 West 168th Street"
+    },
+    "groupName": {
+      "S": "A New Way Of Living"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Check with Security for Room # T Last Thu, Living Sober & Anniv Last Fri. No meetings on public holidays"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 2
+    },
+    "address": {
+      "S": "715 West 179th Street"
+    },
+    "groupName": {
+      "S": "Bridge To Sobriety (:i)"
+    },
+    "crossStreet": {
+      "S": "(Betw Bway &amp; Fort Washington Avenue)"
+    },
+    "notes": {
+      "S": "Living Sober Last Tuesday, T Last Wednesday"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 3
+    },
+    "address": {
+      "S": "715 West 179th Street"
+    },
+    "groupName": {
+      "S": "Bridge To Sobriety (:ii)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "10th Step"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 4
+    },
+    "address": {
+      "S": "431 West 204th Street"
+    },
+    "groupName": {
+      "S": "Dyckman"
+    },
+    "crossStreet": {
+      "S": "(Off of 10th Avenue)"
+    },
+    "notes": {
+      "S": "BB 1st & T Last Wed."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 5
+    },
+    "address": {
+      "S": "550 West 155th Street"
+    },
+    "groupName": {
+      "S": "Found"
+    },
+    "crossStreet": {
+      "S": "(Betw Amsterdam Avenue &amp; Bway)"
+    },
+    "notes": {
+      "S": "Men\\'s meeting & Gay men\\'s focus. All are welcome. Anniversary last Sat., 1st Sat.=S followed by Bus. Mtg."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 6
+    },
+    "address": {
+      "S": "557 West 156th Street"
+    },
+    "groupName": {
+      "S": "Grupo Despertar"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Spanish Speaking Meetings."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 7
+    },
+    "address": {
+      "S": "35 Thayer Street"
+    },
+    "groupName": {
+      "S": "Grupo La Flama Panamericana"
+    },
+    "crossStreet": {
+      "S": "(@ 200th Street, behind Dyckman Avenue )"
+    },
+    "notes": {
+      "S": "Spanish speaking meetings."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 8
+    },
+    "address": {
+      "S": "715 West 179th Street"
+    },
+    "groupName": {
+      "S": "Grupo Libertad"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Spanish speaking meetings."
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 9
+    },
+    "address": {
+      "S": "502 West165th Street"
+    },
+    "groupName": {
+      "S": "Grupo Recuperacion"
+    },
+    "crossStreet": {
+      "S": "(Betw. St. Nicholas &amp; Amsterdam Avenues)"
+    },
+    "notes": {
+      "S": "Spanish speaking meetings."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 10
+    },
+    "address": {
+      "S": "91 Arden Street"
+    },
+    "groupName": {
+      "S": "Grupo Un Nuevo Amanecer"
+    },
+    "crossStreet": {
+      "S": "(2 blocks South of Dyckman Street, Betw. Broadway &amp; Sherman Avenue)"
+    },
+    "notes": {
+      "S": "Spanish Speaking Meetings."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 11
+    },
+    "address": {
+      "S": "20 Cumming Street"
+    },
+    "groupName": {
+      "S": "Happy Destiny"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "LGBT All welcome. Sun= As Bill See it; Wed=Steps1-3 Sun.meeting in Sanctuary; Wed meeting in Auditorium"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 12
+    },
+    "address": {
+      "S": "84 Vermilyea Avenue"
+    },
+    "groupName": {
+      "S": "Inwood Fort Tryon"
+    },
+    "crossStreet": {
+      "S": "(@ 204th Street, 1 Block East of Broadway)"
+    },
+    "notes": {
+      "S": "Sat. Closed meeting rotating step/speaker/trad/anniversary In Dec. first two weeks will be Step meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 13
+    },
+    "address": {
+      "S": "620 Isham Street"
+    },
+    "groupName": {
+      "S": "Isham Park"
+    },
+    "crossStreet": {
+      "S": "(Betw Cooper Street &amp; Seaman Avenue)"
+    },
+    "notes": {
+      "S": "Open Anniv. Last Mon."
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 14
+    },
+    "address": {
+      "S": "2005 Amsterdam Avenue"
+    },
+    "groupName": {
+      "S": "Progress Not Perfection"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": "Open Discussion 1st, 2nd, 4th,and 5th when applicable. OPEN meeting is 3rd Fridays"
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 15
+    },
+    "address": {
+      "S": "178 Bennett Avenue"
+    },
+    "groupName": {
+      "S": "The Men Upstairs"
+    },
+    "crossStreet": {
+      "S": "(@ 189th Street)"
+    },
+    "notes": {
+      "S": "Men\\'s Meeting"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 16
+    },
+    "address": {
+      "S": "178 Bennett Avenue"
+    },
+    "groupName": {
+      "S": "The Missing Link"
+    },
+    "crossStreet": {
+      "S": "(@ 189th Street)"
+    },
+    "notes": {
+      "S": "1st- Step, 2nd-OD, 3rd-Beg., 4th- BB, 5th- OD"
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 17
+    },
+    "address": {
+      "S": "91 Arden Street"
+    },
+    "groupName": {
+      "S": "Upper Manhattan"
+    },
+    "crossStreet": {
+      "S": "(2 blocks South of Dyckman Street, Betw. Broadway &amp; Sherman Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 18
+    },
+    "address": {
+      "S": "20 Cummings Street"
+    },
+    "groupName": {
+      "S": "Uptown Saturday Night"
+    },
+    "crossStreet": {
+      "S": "(Betw. Broadway &amp; Seaman Avenue)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 19
+    },
+    "address": {
+      "S": "715 West 179th Street"
+    },
+    "groupName": {
+      "S": "Washington Heights (:i)"
+    },
+    "crossStreet": {
+      "S": null
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": true
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 20
+    },
+    "address": {
+      "S": "189th Street"
+    },
+    "groupName": {
+      "S": "Washington Heights (:ii)"
+    },
+    "crossStreet": {
+      "S": "(@ North Building)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 21
+    },
+    "address": {
+      "S": "178 Bennett Avenue"
+    },
+    "groupName": {
+      "S": "What We Are Like Now"
+    },
+    "crossStreet": {
+      "S": "(@ 189th Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  },
+  {
+    "zoneName": {
+      "S": "m10"
+    },
+    "gid": {
+      "N": 22
+    },
+    "address": {
+      "S": "178 Bennett Avenue"
+    },
+    "groupName": {
+      "S": "Women\\'s Nite"
+    },
+    "crossStreet": {
+      "S": "(@ 189th Street)"
+    },
+    "notes": {
+      "S": null
+    },
+    "wheelChair": {
+      "BOOL": false
+    }
+  }
+]
