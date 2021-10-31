@@ -13,7 +13,7 @@ Parse and clean AA meeting data for all 10 zones and upload corresponding tables
 **Step 1**: Update SQL database diagram
 
 Simplify the diagram as below and use it as a roadmap for data parsing and cleaning.
-<img src="./sql_diagram.png" width="800" alt="SQL Diagram">
+<img src="./sql_diagram.png" width="600" alt="SQL Diagram">
 
 **Step 2**: Parse and clean data 
 
@@ -34,4 +34,4 @@ str.replace(/[\\"']/g, '\\$&').replace(/\u0000/g, '\\0')|
 - Based on the diagram, I created three tables in the SQL database in [week07_create_sqltables.js]().
 - Then I used template literals to write data into respective tables in [week07_fill_sqltables.js]() and checked the final result for each table. The row counts of the tables match the lengths of the data arrays. 374 rows for `group` level data and 1206 rows for `meeting` level data. 
 - Finally, I joined the three tables in SQL and returned a select query in [week07_sql_querytables.js]()
-<img src="./sql_query.png" width="800" alt="SQL Query">
+<img src="./sql_query.png" width="1000" alt="SQL Query">
