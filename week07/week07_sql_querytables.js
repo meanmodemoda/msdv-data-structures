@@ -20,7 +20,7 @@ client.connect();
 
 // var thisQuery = "SELECT COUNT (*) FROM aalocations;"
 // var thisQuery = "SELECT COUNT (*) FROM meetings;"
-var thisQuery = "SELECT a.groupName, m.gid, m.zoneName, m.startTime, m.sAmPm, m.endTime, m.eAmPm, m.type, m.interest, c.address, a.crossStreet, c.long, c.lat FROM groupMeetings m LEFT JOIN groupAddresses a ON m.gid = a.gid and m.zoneName=a.zoneName LEFT JOIN addressCoordinates c on a.address=c.inputAddress WHERE m.day = 'Monday' LIMIT 50;";
+var thisQuery = "SELECT a.groupName, m.gid, m.zoneName, m.startTime, m.sAmPm, m.endTime, m.eAmPm, m.type, m.interest, c.address, a.crossStreet, c.long, c.lat FROM groupMeetings m LEFT JOIN groupAddresses a ON m.gid = a.gid and m.zoneName=a.zoneName LEFT JOIN addressCoordinates c ON a.address=c.inputAddress WHERE m.day = 'Monday' LIMIT 50;";
 
 client.query(thisQuery, (err, res) => {
     if (err) {throw err}
