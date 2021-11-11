@@ -6,7 +6,7 @@ Post sketches of three final projects: 1) AA Meeting Finder 2) Fashion Deal Blog
 ### 1) AA Meeting Finder
 ###
 
-<img src="./AAMeeting_Finder_wireframe.png" width="800" alt="AA Meeting Wireframe">
+<img src="./AA_Meeting_Wireframe.png" width="800" alt="AA Meeting Wireframe">
 
 ### 2) Fashion Deal Blog
 ###
