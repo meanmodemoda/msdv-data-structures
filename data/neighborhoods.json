@@ -1,0 +1,42 @@
+[
+ {
+   "zonename": "m01",
+   "neighborhood": "Tribeca"
+ },
+ {
+   "zonename": "m02",
+   "neighborhood": "Meatpacking"
+ },
+ {
+   "zonename": "m03",
+   "neighborhood": "Flatiron"
+ },
+ {
+   "zonename": "m04",
+   "neighborhood": "Midtown West"
+ },
+ {
+   "zonename": "m05",
+   "neighborhood": "Murray Hill"
+ },
+ {
+   "zonename": "m06",
+   "neighborhood": "Upper West Side"
+ },
+ {
+   "zonename": "m07",
+   "neighborhood": "Lenox Hill"
+ },
+ {
+   "zonename": "m08",
+   "neighborhood": "Manhattanville"
+ },
+ {
+   "zonename": "m09",
+   "neighborhood": "East Harlem"
+ },
+ {
+   "zonename": "m10",
+   "neighborhood": "Washington Heights"
+ }
+]

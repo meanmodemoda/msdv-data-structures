@@ -1,0 +1,11 @@
+/*body { margin: 0; padding: 0; }*/
+.filter {
+     height: 20rem;
+ }
+
+#map {
+display: block;
+ margin: auto;
+  /*width: 50%;*/
+max-width: 1400px;    
+height: 800px; }

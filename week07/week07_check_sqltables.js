@@ -18,9 +18,10 @@ const client = new Client(db_credentials);
 client.connect();
 
 // Sample SQL statement to query the entire contents of a table: 
-var thisQuery = "SELECT COUNT(*) FROM addressCoordinates";
+// var thisQuery = "SELECT * FROM neighborhoods";
+// var thisQuery = "SELECT COUNT(*) FROM addressCoordinates";
 // var thisQuery = "SELECT COUNT(*) FROM groupAddresses";
-// var thisQuery = "SELECT COUNT(*) FROM groupMeetings";
+var thisQuery = "SELECT COUNT (DISTINCT mid) FROM groupMeetings";
 
 client.query(thisQuery, (err, res) => {
     console.log(err, res.rows);
