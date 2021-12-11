@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AA Meeting</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
+<script src="https://d3js.org/d3.v6.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="./style.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div class="navbar">
+  <div class="neighborhood">       
+ <select id="neighborhood">
+    <option value='neighborhood' selected>Neighborhood</option>
+    <option value='Tribeca' >Tribeca</option>
+    <option value='Meatpacking' >Meatpacking</option>
+    <option value='Flatiron' >Flatiron</option>
+    <option value='Midtown West' >Midtown West</option>
+    <option value='Murray Hill' >Murray Hill</option>
+    <option value='Upper West Side' >Upper West Side</option>
+    <option value='Lenox Hill' >Lenox Hill</option>
+    <option value='Manhattanville' >Manhattanville</option>
+    <option value='East Harlem' >East Harlem</option>
+    <option value='Washington Heights' >Washington Heights</option>
+  </select>
+  </div>
+   <div class="day">  
+       <select id="day">
+   <option value='Anyday' selected>Any Day</option>
+    <option value='Monday'>Monday</option>
+    <option value='Tuesday'>Tuesday</option>
+    <option value='Wednesday'>Wednesday</option>
+    <option value='Thursday'>Thursday</option>
+    <option value='Saturday'>Saturday</option>
+   <option value='Sunday'>Sunday</option>
+  </select>
+ </div>
+
+  
+ <div class="time">
+<input id="time" type="time" name="time" value = "10:00" step=900>
+ </div>
+ 
+    <div class="type">  
+  <select id="type">
+      <option value="Beginners">Beginners</option>
+      <option value="Big Book">Big Book</option>
+<option value="Closed Discussion" selected>Closed Discussion</option>
+<option value="Open">Open</option>
+<option value="Open Discussion">Open Discussion</option>
+<option value="Step">Step</option>
+<option value="Spanish speaking group">Spanish speaking group</option>
+<option value="Tradition">Tradition</option>
+</select>
+</div>
+
+
+    <div class="interest">  
+<select id="interest">
+<option value='AA Literature' selected>AA Literature</option>
+<option value='Agnostic'>Agnostic</option>
+<option value='Beginners Workshop'>Beginners Workshop</option>
+<option value='Big Book Topic'>Big Book Topic</option>
+<option value='Big Book Workshop'>Big Book Workshop</option>
+<option value='Came To Believe'>Came To Believe</option>
+<option value='Children Welcome'>Children Welcome</option>
+<option value='Daily Reflections'>Daily Reflections</option>
+<option value='Eleventh Step'>Eleventh Step</option>
+<option value='Eleventh Step Meditation'>Eleventh Step Meditation</option>
+<option value='First Step Workshop'>First Step Workshop</option>
+<option value='Fourth Step Workshop'>Fourth Step Workshop</option>
+<option value='Gay Men'>Gay Men</option>
+<option value='Gay, Lesbian and Bisexual'>Gay, Lesbian and Bisexual</option>
+<option value='H.I.V Positive'>H.I.V Positive</option>
+<option value='Interpreted for the Deaf'>Interpreted for the Deaf</option>
+<option value='Lesbian'>Lesbian</option>
+<option value='Living Sober'>Living Sober</option>
+<option value='Medication'>Medication</option>
+<option value='Meditation'>Meditation</option>
+<option value='Meditation at Meeting'>Meditation at Meeting</option>
+<option value='Men'>Men</option>
+<option value='Mental Health Issues in Sobriety'>Mental Health Issues in Sobriety</option>
+<option value='Promises'>Promises</option>
+<option value='Round-Robin Meeting Format'>Round-Robin Meeting Format</option>
+<option value='Special Purpose Groups'>Special Purpose Groups</option>
+<option value='Spiritual Workshop'>Spiritual Workshop</option>
+<option value='Sponsorship Workshop'>Sponsorship Workshop</option>
+<option value='Steps 1-2-3'>Steps 1-2-3</option>
+<option value='Topic'>Topic</option>
+<option value='Twelve Steps'>Twelve Steps</option>
+<option value='Under Six Months Sober'>Under Six Months Sober</option>
+<option value='Women'>Women</option>
+<option value='Young People'>Young People</option>
+</select>
+ </div>
+ 
+<div class="wheelchair">
+<label class="switch">
+  <input id = "wheelchair" type="checkbox" name="wheelchair">
+  <span class="slider round">Wheelchair</span>
+</label>
+</div>
+
+  </div>
+<button id="submit" type="button" onclick="submitRequest()">Click me</button>
+<div class="outputTime"></div>  
+<div class="outputSelection"></div>
+ </nav>
+ 
+<div id="map"></div>
+<script src="./aa.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</body>
+</html>

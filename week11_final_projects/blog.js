@@ -1,4 +1,6 @@
 /*global Leaflet*/
+//install sass
+
 //mapbox setup
 
 const data = [
@@ -11,7 +13,6 @@ const data = [
       "starttime": "07:00",
       "sampm": "AM",
       "starttime": "08:00",
-      "endtime": "01:15",
       "eampm": "AM",
       "type": "Open Discussion",
       "interest": "AA Literature",
@@ -31,7 +32,6 @@ const data = [
       "starttime": "07:00",
       "sampm": "AM",
       "starttime": "08:00",
-      "endtime": "01:15",
       "eampm": "PM",
       "type": "Open Discussion",
       "interest": "AA Literature",
@@ -50,7 +50,6 @@ const data = [
       "starttime": "12:15",
       "sampm": "PM",
       "starttime": "01:15",
-      "endtime": "01:15",
       "eampm": "PM",
       "type": "Open Discussion",
       "interest": "null",
@@ -64,8 +63,6 @@ const data = [
 // const dataTest = data.filter(d => d.neighborhood=== 'Tribeca')
 // console.log(data[1].neighborhood)
 // console.log(dataTest)
-
-//****************Create Tile Layer
 const mymap = L.map('map').setView([40.734636,-73.994997], 13);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -78,78 +75,26 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     }).addTo(mymap);
     
     
- //****************Create Tooltip   
-function createTooltip (data) {
-    
-    let wheelchair;
-    let interest;
-    
-     if (data.wheelchair===false) {
-         wheelchair = `No wheelchair access`;
-     } else {
-         wheelchair = `Wheelchair accessible<br><br><img src="./assets/Acc.svg" alt="Accessible" width="25" height="25">`;
-    }
-    if (data.interest==="null") {
-         interest = ` `;
-     } else {
-         interest= `${data.interest}`;
-     }     
-         
-  let output = `<div class="tooltip"><div class="tooltip-header" style="color:#3852A7;"><h3>${data.groupname}</h3></div><div class="divider" style="background-color:#D7DF23;height:0.25px;"></div><br><b>${data.day}</b>
-  <b>${data.starttime} ${data.sampm} - ${data.endtime} ${data.eampm}</b>
-  <p>${data.type}<br>${data.address}</p><p class="extra">${interest}<br>${wheelchair}</p></div>`
-  
-   
- return output;
-}
-
  for (let i=0; i<data.length; i++) {
-        L.marker( [data[i].lat, data[i].long]).bindPopup(createTooltip(data[i])).addTo(mymap);
-    }        
-
-
-//Construct queryInput Object
+        L.marker( [data[i].lat, data[i].long]).bindPopup(`<b>${JSON.stringify(data[i].groupname)}</b><p>${JSON.stringify(data[i].interest)}</p><p>${JSON.stringify(data[i].type)}</p>`).addTo(mymap);
+    }    
+    
+//Construct queryInput object
 const queryInput={};
 
-const inputTime = document.querySelector('input[type="time"]');
+const input = document.querySelector('input[type="time"]');
+
 const ngbSelect = document.querySelector('#neighborhood');
 const daySelect = document.querySelector('#day');
 const typeSelect = document.querySelector('#type');
 const interestSelect = document.querySelector('#interest');
 const checkbox = document.querySelector('input[type="checkbox"]');
 
-const inputArray = [ngbSelect,daySelect,typeSelect,interestSelect]
-const keys = ["neighborhood","day","type","interest"]
-
-for (let input of inputArray) {
-    input.addEventListener('change', updateValue);
-}
-
-inputTime.addEventListener('input', outputTime);
-checkbox.addEventListener("change",toggleAccess);
-
-
-function updateValue(e) {
-  let key = this.getAttribute("id");
-  queryInput[key]=e.target.value;
-    return queryInput;
-    // console.log(queryInput);
-}
-
-
-function toggleAccess(e) {
- let key = this.getAttribute("id");
-    if(e.target.checked===true) {
-        queryInput[key]= e.target.checked;
-    } else {
-       delete queryInput[key];
-    }
-  return queryInput;
-    // console.log(queryInput);
-}
-
+input.addEventListener('input', outputTime);
 
 function outputTime(e) {
+    
+   
     const inputTime = e.target.value;
     const zero="0";
     const hours = inputTime.toString().substring(0,2);
@@ -167,31 +112,52 @@ function outputTime(e) {
     }
     
     return queryInput;
-    // console.log(queryInput)
+//   console.log(queryInput);
 }
 
-const submitInput = document.querySelector('#submit');
 
-submitInput.addEventListener("click", submitRequest)
+ngbSelect.addEventListener('change', function(e) {
+    queryInput["neighborhood"]=e.target.value;
+  });
+  
+daySelect.addEventListener('change', function(e) {
+    queryInput["day"]=e.target.value;
+  });
 
-function submitRequest() {
-    console.log(queryInput)
-}
-
-//Test Output
-// const outputTimeArea = document.querySelector('.outputTime');
-// const outputArea = document.querySelector('.outputSelection');
-
-
-// function addText(e) {
-    
-//   outputTimeArea.innerHTML+=this.getAttribute("id")
-//     outputArea.innerHTML+=e.target.value;
-// }  
-
-// for (let input of inputArray) {
-//     input.addEventListener('change', addText);
-// }
+typeSelect.addEventListener('change', function(e) {
+    queryInput["type"]=e.target.value;
+  });
+  
+interestSelect.addEventListener('change', function(e) {
+    queryInput["interest"]=e.target.value;
+  });
   
 
+checkbox.addEventListener('change', function() {
+    
+  if (this.checked) {
+    queryInput["wheelchair"]= true;
+  } else {
+    return;}
 
+});
+
+
+const dataFiltered = data.filter(d => 
+    d.day === queryInput.day)
+
+    
+console.log(data) 
+console.log(queryInput)
+console.log(dataFiltered)
+
+
+
+// const dataFiltered = data.filter(d => 
+//     d.neigbhorhood ==queryInput.neighborhood &&
+//     d.day == queryInput.day &&
+//     d.starttime == queryInput.clocktime &&
+//     d.sampm ==queryInput.ampm &&
+//     d.type == queryInput.type &&
+//     d.interest == queryInput.interest &&
+//     d.wheelchair == queryInput.wheelchair)

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 6 - Vue.js </title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,900&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div id="container">
+      <div class="header">
+      <h1 class="assignment">Assignment 5: <br>Using Vue.js Framework</h1>
+      <h1 class="ghibli">Ghibli Films</h1>
+        </div>
+        <div id="app">
+        <div class="filter">
+          <h1>Filter Films by Keyword.</h1>  
+          <form @submit='searchFilms'>
+          <input type="text" v-model="searchQueryInput" placeholder = "search keyword in title or description"/>
+          <input id="submit" type="submit" value="Enter"/><input type="reset" @click = "reset" value="Reset"/>
+          </form>
+        </div>
+        <!--{{ JSON.stringify(films) }}-->
+        
+        <film-block v-for='film in resultQuery'  
+  
+          :key="film.id"
+          :title = "film.title"
+          :rt_score = "film.rt_score"
+          :description = "film.description"
+          />
+    
+        </div>
+    </div>
+    <script src="https://unpkg.com/vue@3.0.0"></script>
+    <script src="./app.js" type ='module'></script>
+</body>
+</html>
