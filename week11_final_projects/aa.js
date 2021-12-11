@@ -59,8 +59,9 @@ const data = [
       "long": -74.0081,
       "lat": 40.7092,
       "wheelchair": false
-    }]
+    }];
 
+let result = [];
 // const dataTest = data.filter(d => d.neighborhood=== 'Tribeca')
 // console.log(data[1].neighborhood)
 // console.log(dataTest)
@@ -76,37 +77,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     id: 'meanmodemoda/ckwthwi6i3pdq15qjkx9eqqdj',
         accessToken: 'pk.eyJ1IjoibWVhbm1vZGVtb2RhIiwiYSI6ImNrd2duY203YzBxaDQyeHA4YmNqOWk4dWQifQ.p3OGSJeE4eG9XEkDwXEoxw'
     }).addTo(mymap);
-    
-    
- //****************Create Tooltip   
-function createTooltip (data) {
-    
-    let wheelchair;
-    let interest;
-    
-     if (data.wheelchair===false) {
-         wheelchair = `No wheelchair access`;
-     } else {
-         wheelchair = `Wheelchair accessible<br><br><img src="./assets/Acc.svg" alt="Accessible" width="25" height="25">`;
-    }
-    if (data.interest==="null") {
-         interest = ` `;
-     } else {
-         interest= `${data.interest}`;
-     }     
-         
-  let output = `<div class="tooltip"><div class="tooltip-header" style="color:#3852A7;"><h3>${data.groupname}</h3></div><div class="divider" style="background-color:#D7DF23;height:0.25px;"></div><br><b>${data.day}</b>
-  <b>${data.starttime} ${data.sampm} - ${data.endtime} ${data.eampm}</b>
-  <p>${data.type}<br>${data.address}</p><p class="extra">${interest}<br>${wheelchair}</p></div>`
-  
-   
- return output;
-}
-
- for (let i=0; i<data.length; i++) {
-        L.marker( [data[i].lat, data[i].long]).bindPopup(createTooltip(data[i])).addTo(mymap);
-    }        
-
 
 //Construct queryInput Object
 const queryInput={};
@@ -175,8 +145,45 @@ const submitInput = document.querySelector('#submit');
 submitInput.addEventListener("click", submitRequest)
 
 function submitRequest() {
-    console.log(queryInput)
+    
+    for (let key in queryInput) {
+        
+      result = data.filter(el => 
+      el[key]===queryInput[key])
+    }
+    
+    console.log(result)
+    
+    for (let i=0; i<result.length; i++) {
+        L.marker([result[i].lat, result[i].long]).bindPopup(createTooltip(result[i])).addTo(mymap);
+    }  
 }
+
+//****************Create Tooltip   
+function createTooltip (data) {
+    
+    let wheelchair;
+    let interest;
+    
+     if (data.wheelchair===false) {
+         wheelchair = `No wheelchair access`;
+     } else {
+         wheelchair = `Wheelchair accessible<br><br><img src="./assets/Acc.svg" alt="Accessible" width="25" height="25">`;
+    }
+    if (data.interest==="null") {
+         interest = ` `;
+     } else {
+         interest= `${data.interest}`;
+     }     
+         
+  let output = `<div class="tooltip"><div class="tooltip-header" style="color:#3852A7;"><h3>${data.groupname}</h3></div><div class="divider" style="background-color:#D7DF23;height:0.25px;"></div><br><b>${data.day}</b>
+  <b>${data.starttime} ${data.sampm} - ${data.endtime} ${data.eampm}</b>
+  <p>${data.type}<br>${data.address}</p><p class="extra">${interest}<br>${wheelchair}</p></div>`
+  
+   
+ return output;
+}
+
 
 //Test Output
 // const outputTimeArea = document.querySelector('.outputTime');

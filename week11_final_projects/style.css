@@ -15,7 +15,7 @@ nav {
   background-repeat: no-repeat;
      height: 18rem;
  width: 100%;
-     border-bottom: 5px solid yellow;
+     border-bottom: 4px dashed #3852A7;
        display: block;
 }
 
