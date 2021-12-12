@@ -9,104 +9,47 @@
 </head>
 <body>
 <nav>
-    <div class="navbar">
-  <div class="neighborhood">       
- <select id="neighborhood">
-    <option value='neighborhood' selected>Neighborhood</option>
-    <option value='Tribeca' >Tribeca</option>
-    <option value='Meatpacking' >Meatpacking</option>
-    <option value='Flatiron' >Flatiron</option>
-    <option value='Midtown West' >Midtown West</option>
-    <option value='Murray Hill' >Murray Hill</option>
-    <option value='Upper West Side' >Upper West Side</option>
-    <option value='Lenox Hill' >Lenox Hill</option>
-    <option value='Manhattanville' >Manhattanville</option>
-    <option value='East Harlem' >East Harlem</option>
-    <option value='Washington Heights' >Washington Heights</option>
+    <div id="header"><h3>Fashion & Luxury Investment and M&As</h3></div>
+
+      <div class="industry">     
+ <select id="industry">
+      <option value='null' selected>Choose An Industry</option>
+    <option value='apparel' >Apparel</option>
+    <option value='luxury' >Luxury</option>
+    <option value='resale' >Resale</option>
+    <option value='rental' >Rental</option>
+    <option value='footwear' >Footwear</option>
+    <option value='streetwear' >Streetwear</option>
+    <option value='fast fashion' >Fast Fashion</option>
+    <option value='beauty' >Beauty</option>
   </select>
   </div>
-   <div class="day">  
-       <select id="day">
-   <option value='Anyday' selected>Any Day</option>
-    <option value='Monday'>Monday</option>
-    <option value='Tuesday'>Tuesday</option>
-    <option value='Wednesday'>Wednesday</option>
-    <option value='Thursday'>Thursday</option>
-    <option value='Saturday'>Saturday</option>
-   <option value='Sunday'>Sunday</option>
-  </select>
- </div>
-
-  
- <div class="time">
-<input id="time" type="time" name="time" value = "10:00" step=900>
- </div>
- 
-    <div class="type">  
-  <select id="type">
-      <option value="Beginners">Beginners</option>
-      <option value="Big Book">Big Book</option>
-<option value="Closed Discussion" selected>Closed Discussion</option>
-<option value="Open">Open</option>
-<option value="Open Discussion">Open Discussion</option>
-<option value="Step">Step</option>
-<option value="Spanish speaking group">Spanish speaking group</option>
-<option value="Tradition">Tradition</option>
-</select>
-</div>
-
-
-    <div class="interest">  
-<select id="interest">
-<option value='AA Literature' selected>AA Literature</option>
-<option value='Agnostic'>Agnostic</option>
-<option value='Beginners Workshop'>Beginners Workshop</option>
-<option value='Big Book Topic'>Big Book Topic</option>
-<option value='Big Book Workshop'>Big Book Workshop</option>
-<option value='Came To Believe'>Came To Believe</option>
-<option value='Children Welcome'>Children Welcome</option>
-<option value='Daily Reflections'>Daily Reflections</option>
-<option value='Eleventh Step'>Eleventh Step</option>
-<option value='Eleventh Step Meditation'>Eleventh Step Meditation</option>
-<option value='First Step Workshop'>First Step Workshop</option>
-<option value='Fourth Step Workshop'>Fourth Step Workshop</option>
-<option value='Gay Men'>Gay Men</option>
-<option value='Gay, Lesbian and Bisexual'>Gay, Lesbian and Bisexual</option>
-<option value='H.I.V Positive'>H.I.V Positive</option>
-<option value='Interpreted for the Deaf'>Interpreted for the Deaf</option>
-<option value='Lesbian'>Lesbian</option>
-<option value='Living Sober'>Living Sober</option>
-<option value='Medication'>Medication</option>
-<option value='Meditation'>Meditation</option>
-<option value='Meditation at Meeting'>Meditation at Meeting</option>
-<option value='Men'>Men</option>
-<option value='Mental Health Issues in Sobriety'>Mental Health Issues in Sobriety</option>
-<option value='Promises'>Promises</option>
-<option value='Round-Robin Meeting Format'>Round-Robin Meeting Format</option>
-<option value='Special Purpose Groups'>Special Purpose Groups</option>
-<option value='Spiritual Workshop'>Spiritual Workshop</option>
-<option value='Sponsorship Workshop'>Sponsorship Workshop</option>
-<option value='Steps 1-2-3'>Steps 1-2-3</option>
-<option value='Topic'>Topic</option>
-<option value='Twelve Steps'>Twelve Steps</option>
-<option value='Under Six Months Sober'>Under Six Months Sober</option>
-<option value='Women'>Women</option>
-<option value='Young People'>Young People</option>
-</select>
- </div>
- 
-<div class="wheelchair">
-<label class="switch">
-  <input type="checkbox" name="wheelchair">
-  <span class="slider round">Wheelchair</span>
-</label>
-</div>
-
-  </div>
-
  </nav>
+ <div class="content">
+     <div class="filter">
+
+
+    <div class="region"> 
+       <label for="region">Filter by Region</label>
+<select id="region">
+<option value='North America' selected>North America</option>
+<option value='South America'>South America</option>
+<option value='Asia'>Asia</option>
+<option value='Middle East'>Middle East</option>
+<option value='Africa'>Africa</option>
+</select>
+ </div>
  
-<div id="content"></div>
+
+    <div class="slidecontainer">
+        
+    <label for="myRange">Filter by Year</label>
+  <input type="range" min="1" max="5" value="1" class="slider" id="myRange">
+</div>
+ </div>
+     <div class="blog"></div>
+ </div>
+ 
 <script src="./blog.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </body>
