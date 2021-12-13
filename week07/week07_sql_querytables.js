@@ -25,18 +25,24 @@ client.connect();
 // create dummy data
 // var thisQuery = "SELECT COUNT(*) FROM groupMeetings m JOIN groupAddresses a ON m.gid = a.gid AND m.zoneName=a.zoneName JOIN addressCoordinates c ON a.address=c.inputAddress";
 
-var thisQuery = "SELECT DISTINCT a.groupName, m.gid, m.zoneName, n.neighborhood, m.day, m.startTime, m.sAmPm, m.endTime, m.eAmPm, m.type, m.interest, c.address, a.crossStreet, c.long, c.lat, a.wheelChair FROM groupMeetings m LEFT JOIN groupAddresses a ON m.gid = a.gid AND m.zoneName=a.zoneName LEFT JOIN addressCoordinates c ON a.address=c.inputAddress LEFT JOIN neighborhoods n ON n.zonename=m.zoneName LIMIT 50;";
+// var thisQuery = "SELECT DISTINCT a.groupName, m.gid, m.zoneName, n.neighborhood, m.day, m.startTime, m.sAmPm, m.endTime, m.eAmPm, m.type, m.interest, c.address, a.crossStreet, c.long, c.lat, a.wheelChair FROM groupMeetings m LEFT JOIN groupAddresses a ON m.gid = a.gid AND m.zoneName=a.zoneName LEFT JOIN addressCoordinates c ON a.address=c.inputAddress LEFT JOIN neighborhoods n ON n.zonename=m.zoneName;";
+
+// var thisQuery = "SELECT DISTINCT interest FROM groupMeetings;";
+
+var thisQuery = `SELECT lat, long, json_agg(json_build_object('groupname',groupname,'gid',gid,'zonename',zonename, 'neighborhood', neighborhood, 'day',day, 'starttime', starttime, 'sampm',sampm, 'endtime', endtime, 'eampm', eampm,'type', type, 'interest',interest,'address',address, 'crossstreet',crossstreet, 'wheelchair', wheelchair)) as meetings
+                 FROM aafinal
+                 GROUP BY lat, long;`;
 
 client.query(thisQuery, (err, res) => {
     if (err) {throw err}
     else {
         console.table(res.rows);
-           fs.writeFileSync('/home/ec2-user/environment/data/aa-dummy-query.json',  JSON.stringify(res), function(err) {
+          fs.writeFileSync('/home/ec2-user/environment/data/aa-test.json',  JSON.stringify(res), function(err) {
     if (err) throw err;
     console.log('complete');
-    })
-        client.end();
+          });
     }
+        client.end();
 });
 
 

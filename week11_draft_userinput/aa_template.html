@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AA Meeting</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
+<script src="https://d3js.org/d3.v6.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="./style.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div class="navbar">
+  <div class="neighborhood">       
+ <select id="neighborhood">
+    <option value='neighborhood' selected>Neighborhood</option>
+    <option value='Tribeca' >Tribeca</option>
+    <option value='Meatpacking' >Meatpacking</option>
+    <option value='Flatiron' >Flatiron</option>
+    <option value='Midtown West' >Midtown West</option>
+    <option value='Murray Hill' >Murray Hill</option>
+    <option value='Upper West Side' >Upper West Side</option>
+    <option value='Lenox Hill' >Lenox Hill</option>
+    <option value='Manhattanville' >Manhattanville</option>
+    <option value='East Harlem' >East Harlem</option>
+    <option value='Washington Heights' >Washington Heights</option>
+  </select>
+  </div>
+   <div class="day">  
+       <select id="day">
+   <option value='Anyday' selected>Any Day</option>
+    <option value='Monday'>Monday</option>
+    <option value='Tuesday'>Tuesday</option>
+    <option value='Wednesday'>Wednesday</option>
+    <option value='Thursday'>Thursday</option>
+    <option value='Saturday'>Saturday</option>
+   <option value='Sunday'>Sunday</option>
+  </select>
+ </div>
+
+  
+ <div class="time">
+<input id="time" type="time" name="time" value = "10:00" step=900>
+ </div>
+ 
+    <div class="type">  
+  <select id="type">
+      <option value="Beginners">Beginners</option>
+      <option value="Big Book">Big Book</option>
+<option value="Closed Discussion" selected>Closed Discussion</option>
+<option value="Open">Open</option>
+<option value="Open Discussion">Open Discussion</option>
+<option value="Step">Step</option>
+<option value="Spanish speaking group">Spanish speaking group</option>
+<option value="Tradition">Tradition</option>
+</select>
+</div>
+
+
+    <div class="interest">  
+<select id="interest">
+<option value='AA Literature' selected>AA Literature</option>
+<option value='Agnostic'>Agnostic</option>
+<option value='Beginners Workshop'>Beginners Workshop</option>
+<option value='Big Book Topic'>Big Book Topic</option>
+<option value='Big Book Workshop'>Big Book Workshop</option>
+<option value='Came To Believe'>Came To Believe</option>
+<option value='Children Welcome'>Children Welcome</option>
+<option value='Daily Reflections'>Daily Reflections</option>
+<option value='Eleventh Step'>Eleventh Step</option>
+<option value='Eleventh Step Meditation'>Eleventh Step Meditation</option>
+<option value='First Step Workshop'>First Step Workshop</option>
+<option value='Fourth Step Workshop'>Fourth Step Workshop</option>
+<option value='Gay Men'>Gay Men</option>
+<option value='Gay, Lesbian and Bisexual'>Gay, Lesbian and Bisexual</option>
+<option value='H.I.V Positive'>H.I.V Positive</option>
+<option value='Interpreted for the Deaf'>Interpreted for the Deaf</option>
+<option value='Lesbian'>Lesbian</option>
+<option value='Living Sober'>Living Sober</option>
+<option value='Medication'>Medication</option>
+<option value='Meditation'>Meditation</option>
+<option value='Meditation at Meeting'>Meditation at Meeting</option>
+<option value='Men'>Men</option>
+<option value='Mental Health Issues in Sobriety'>Mental Health Issues in Sobriety</option>
+<option value='Promises'>Promises</option>
+<option value='Round-Robin Meeting Format'>Round-Robin Meeting Format</option>
+<option value='Special Purpose Groups'>Special Purpose Groups</option>
+<option value='Spiritual Workshop'>Spiritual Workshop</option>
+<option value='Sponsorship Workshop'>Sponsorship Workshop</option>
+<option value='Steps 1-2-3'>Steps 1-2-3</option>
+<option value='Topic'>Topic</option>
+<option value='Twelve Steps'>Twelve Steps</option>
+<option value='Under Six Months Sober'>Under Six Months Sober</option>
+<option value='Women'>Women</option>
+<option value='Young People'>Young People</option>
+</select>
+ </div>
+ 
+<div class="wheelchair">
+<label class="switch">
+  <input id = "wheelchair" type="checkbox" name="wheelchair">
+  <span class="slider round">Wheelchair</span>
+</label>
+</div>
+
+  </div>
+<button id="submit" type="button" onclick="submitRequest()">Find Meetings</button>
+<div class="outputTime"></div>  
+<div class="outputSelection"></div>
+ </nav>
+ 
+<div id="map"></div>
+<script>
+    const data = [
+    {
+      "groupname": "A Design For Living",
+      "gid": 1,
+      "zonename": "m01",
+      "neighborhood": "Tribeca",
+      "day": "Thursday",
+      "starttime": "07:00",
+      "sampm": "AM",
+      "starttime": "08:00",
+      "endtime": "01:15",
+      "eampm": "AM",
+      "type": "Open Discussion",
+      "interest": "AA Literature",
+      "address": "20 Cardinal Hayes Pl, New York, NY",
+      "crossstreet": "(Between Duane and Pearl Streets)",
+      "long": -74.0023994478748,
+      "lat": 40.7132597018695,
+      "wheelchair": false
+    },
+    
+    {
+      "groupname": "Downtown",
+      "gid": 4,
+      "zonename": "m01",
+      "neighborhood": "Tribeca",
+      "day": "Monday",
+      "starttime": "07:00",
+      "sampm": "AM",
+      "starttime": "08:00",
+      "endtime": "01:15",
+      "eampm": "PM",
+      "type": "Open Discussion",
+      "interest": "AA Literature",
+      "address": "49 Fulton St, New York, NY",
+      "crossstreet": "(@ Pearl Street)",
+      "long": -74.0042375398091,
+      "lat": 40.7080475730195,
+      "wheelchair": true
+    },
+           {
+      "groupname": "Exchange Views @ John Street Church",
+      "gid": 5,
+      "zonename": "m01",
+      "neighborhood": "Tribeca",
+      "day": "Thursday",
+      "starttime": "12:15",
+      "sampm": "PM",
+      "starttime": "01:15",
+      "endtime": "01:15",
+      "eampm": "PM",
+      "type": "Open Discussion",
+      "interest": "null",
+      "address": "44 John St, New York, NY",
+      "crossstreet": "null",
+      "long": -74.0081,
+      "lat": 40.7092,
+      "wheelchair": false
+    }];
+
+let result = [];
+// const dataTest = data.filter(d => d.neighborhood=== 'Tribeca')
+// console.log(data[1].neighborhood)
+// console.log(dataTest)
+
+//****************Create Tile Layer
+const mymap = L.map('map').setView([40.734636,-73.994997], 13);
+
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>',
+    tileSize: 512,
+    maxZoom: 18,
+    zoomOffset: -1,
+    id: 'meanmodemoda/ckwthwi6i3pdq15qjkx9eqqdj',
+        accessToken: 'pk.eyJ1IjoibWVhbm1vZGVtb2RhIiwiYSI6ImNrd2duY203YzBxaDQyeHA4YmNqOWk4dWQifQ.p3OGSJeE4eG9XEkDwXEoxw'
+    }).addTo(mymap);
+
+//Construct queryInput Object
+const queryInput={};
+
+const inputTime = document.querySelector('input[type="time"]');
+const ngbSelect = document.querySelector('#neighborhood');
+const daySelect = document.querySelector('#day');
+const typeSelect = document.querySelector('#type');
+const interestSelect = document.querySelector('#interest');
+const checkbox = document.querySelector('input[type="checkbox"]');
+
+const inputArray = [ngbSelect,daySelect,typeSelect,interestSelect]
+const keys = ["neighborhood","day","type","interest"]
+
+for (let input of inputArray) {
+    input.addEventListener('change', updateValue);
+}
+
+inputTime.addEventListener('input', outputTime);
+checkbox.addEventListener("change",toggleAccess);
+
+
+function updateValue(e) {
+  let key = this.getAttribute("id");
+  queryInput[key]=e.target.value;
+    return queryInput;
+    // console.log(queryInput);
+}
+
+
+function toggleAccess(e) {
+ let key = this.getAttribute("id");
+    if(e.target.checked===true) {
+        queryInput[key]= e.target.checked;
+    } else {
+       delete queryInput[key];
+    }
+  return queryInput;
+    // console.log(queryInput);
+}
+
+
+function outputTime(e) {
+    const inputTime = e.target.value;
+    const zero="0";
+    const hours = inputTime.toString().substring(0,2);
+    const minutes = inputTime.toString().substring(2,inputTime.length);
+    
+    if (hours>=12) {
+        queryInput["ampm"]="PM";
+        
+        const newHour = parseInt(hours)-12;
+        queryInput["clocktime"] = zero + newHour.toString() + minutes;
+        
+    } else {
+        queryInput["ampm"]="AM";
+        queryInput["clocktime"] = inputTime.toString();
+    }
+    
+    return queryInput;
+    // console.log(queryInput)
+}
+
+const submitInput = document.querySelector('#submit');
+
+submitInput.addEventListener("click", submitRequest)
+
+function submitRequest() {
+    
+    for (let key in queryInput) {
+        
+      result = data.filter(el => 
+      el[key]===queryInput[key])
+    }
+    
+    console.log(result)
+    
+    for (let i=0; i<result.length; i++) {
+        L.marker([result[i].lat, result[i].long]).bindPopup(createTooltip(result[i])).addTo(mymap);
+    }  
+}
+
+//****************Create Tooltip   
+function createTooltip (data) {
+    
+    let wheelchair;
+    let interest;
+    
+     if (data.wheelchair===false) {
+         wheelchair = `No wheelchair access`;
+     } else {
+         wheelchair = `Wheelchair accessible<br><br><img src="./assets/Acc.svg" alt="Accessible" width="25" height="25">`;
+    }
+    if (data.interest==="null") {
+         interest = ` `;
+     } else {
+         interest= `${data.interest}`;
+     }     
+         
+  let output = `<div class="tooltip"><div class="tooltip-header" style="color:#3852A7;"><h3>${data.groupname}</h3></div><div class="divider" style="background-color:#D7DF23;height:0.25px;"></div><br><b>${data.day}</b>
+  <b>${data.starttime} ${data.sampm} - ${data.endtime} ${data.eampm}</b>
+  <p>${data.type}<br>${data.address}</p><p class="extra">${interest}<br>${wheelchair}</p></div>`
+  
+   
+ return output;
+}
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Fashion Deal Blog</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<script src="https://d3js.org/d3.v6.js"></script>
+<link href="./blog.css" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <div id="header"><h3>Fashion & Luxury Investment and M&As</h3></div>
+
+      <div class="industry">     
+ <select id="industry">
+      <option value='null' selected>Choose An Industry</option>
+    <option value='apparel' >Apparel</option>
+    <option value='luxury' >Luxury</option>
+    <option value='resale' >Resale</option>
+    <option value='rental' >Rental</option>
+    <option value='footwear' >Footwear</option>
+    <option value='streetwear' >Streetwear</option>
+    <option value='fast fashion' >Fast Fashion</option>
+    <option value='beauty' >Beauty</option>
+  </select>
+  </div>
+ </nav>
+ <div class="content">
+     <div class="filter">
+
+
+    <div class="region"> 
+       <label for="region">Filter by Region</label>
+<select id="region">
+<option value='North America' selected>North America</option>
+<option value='South America'>South America</option>
+<option value='Asia'>Asia</option>
+<option value='Middle East'>Middle East</option>
+<option value='Africa'>Africa</option>
+</select>
+ </div>
+ 
+
+    <div class="slidecontainer">
+        
+    <label for="myRange">Filter by Year</label>
+  <input type="range" min="1" max="5" value="1" class="slider" id="myRange">
+</div>
+ </div>
+     <div class="blog"></div>
+ </div>
+ 
+<script src="./blog.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</body>
+</html>
