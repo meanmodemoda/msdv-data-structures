@@ -128,3 +128,72 @@ input:checked + .slider:before {
     margin: 0 0 5px;
     color: #777;
 }
+
+/*select {*/
+/*  width: 15%;*/
+/*  padding: 12px 20px;*/
+/*  margin: 8px 10px 8px 8px;*/
+  
+/*  display: inline-block;*/
+/*  border: 1px solid #FFFFFF;*/
+/*  border-radius: 50px;*/
+/*  box-sizing: border-box;*/
+/*  background-color: RGBA(132, 183, 219, 0.3);*/
+/*}*/
+
+select, #time
+{
+  width: 10%;
+  padding: 12px 12px;
+  margin: 5px 5px 8px 8px;
+  font-family: "Open Sans";
+  font-weight: 700;
+   float: right;
+  border: 1px solid #FFFFFF;
+  color: white;
+  border-radius: 50px;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: RGBA(132, 183, 219, 0.3);
+}
+
+button
+{
+  width: 10%;
+  padding: 12px 12px;
+  margin-top: 0px;
+  margin-left: 1260px;
+ display: inline-block;
+ right: 200px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 50px;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: #C7DC51;
+
+}
+
+.switch
+{
+  width: 5%;
+  /*padding: 12px 12px;*/
+  margin-top: 140px;
+  margin-left: 800px;
+ display: inline-block;
+ right: 200px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  border-radius: 50px;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: #C7DC51;
+ opacity: 0;
+}
+/*nav {*/
+/*justify-content: right;*/
+/*}*/

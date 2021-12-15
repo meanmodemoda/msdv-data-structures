@@ -14,6 +14,11 @@
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Lato:wght@400&display=swap"
+    rel="stylesheet">
 <style>
 
 html {
@@ -144,6 +149,43 @@ input:checked + .slider:before {
     margin: 0 0 5px;
     color: #777;
 }
+
+select, #time
+{
+  width: 10%;
+  padding: 12px 12px;
+  margin: 5px 5px 8px 8px;
+  font-family: "Open Sans";
+  font-weight: 700;
+   float: right;
+  border: 1px solid #FFFFFF;
+  color: white;
+  border-radius: 50px;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: #3852A7;
+}
+
+button
+{
+  width: 10%;
+  padding: 12px 12px;
+  margin-top: 0px;
+  margin-left: 1260px;
+ display: inline-block;
+ right: 200px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  border: 1px solid #FFFFFF;
+  color: #3852A7;
+  border-radius: 50px;
+  font-size: 10px;
+  box-sizing: border-box;
+  background-color: #C7DC51;
+
+}
+.switch {
+opacity: 0}
 </style>
 </head>
 <body>

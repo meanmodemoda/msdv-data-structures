@@ -21,9 +21,6 @@ var pbtemplate = handlebars.compile(pbSource, { strict: true });
 const aaSource = fs.readFileSync("./templates/aa.txt").toString();
 var aatemplate = handlebars.compile(aaSource, { strict: true });
 
-const landing = fs.readFileSync("./templates/landing.txt").toString();
-
-
 // AWS RDS credentials
 var db_credentials = new Object();
 db_credentials.user = 'postgres';
@@ -32,13 +29,10 @@ db_credentials.database = 'AA';
 db_credentials.password = process.env.PGSQL_KEY;
 db_credentials.port = 5432;
 
-app.get('/', function(req, res) {
-    res.send(landing);
-}); 
 
-// app.get('/', function(req, res) {
-//     res.send('<h3>Yang Zhao\'s Data Structures App</h3><ul><li><a href="/aa">aa meetings</a></li><li><a href="/processblog">process blog</a></li></ul>');
-// }); 
+app.get('/', function(req, res) {
+    res.send('<h3>Code demo site</h3><ul><li><a href="/aa">aa meetings</a></li><li><a href="/processblog">process blog</a></li></ul>');
+}); 
 
 // respond to requests for /aa
 app.get('/aa', function(req, res) {

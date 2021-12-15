@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Lato:wght@400&display=swap"
+    rel="stylesheet">
+    <style>
+    html {
+        font-family: "Lato";
+    }
+        div.iris {
+            
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px;
+margin-top: 20px;
+  border-radius: 75px;
+  display: block;
+  /*transform: translate(-50%, -50%);*/
+}
+
+.iris-left {
+    background-color: #3852A7;
+}
+
+.iris-right {
+    background-color: #FFF0DD;
+}
+
+  div.iris div {
+      position: relative;
+  }
+ 
+ a {
+position: absolute;
+top: 58px;
+left: 35px;
+ }
+        
+    </style>
+</head>
+<body>
+<h2>Yang Zhao's Data Structures App</h2>
+<div class="iris iris-left"><div><a href="/aa">aa meetings</a></div></div>
+<div class="iris iris-right"><div><a href="/processblog">process blog</a></div></div>
+</body>
+</html>
