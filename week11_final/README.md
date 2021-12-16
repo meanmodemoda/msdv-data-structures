@@ -1,5 +1,5 @@
 ### Summary
-Create an application that queries both RDS and NoSQL databases and display query results to the front end.
+Create an application that queries both RDS and NoSQL databases and displays query results on the front end.
 ##
 ### Assignment Details
 - Install dependencies `express` (request handling), `handlebars`(templating), `moment` (time handling, deprecated), `leaflet` (mapping), `mapbox` (tile style). 
@@ -59,22 +59,10 @@ function createTooltip (meetings) {
 }
 ```
 
-It's also worth noting that I need to be careful with null value to ensure accurate querying even if it's out of the scope of this project. For instance, if the wheelchair toggle is turned off, it means the user is indifferent about whether the meeting is wheelchair accessible or not so the query should return both wheelchair `true` and `false` value, but if it's toggled on, the query should return `true` value. Toggling off is not the opposite of `true`.
+It's also worth noting that I need to be careful with null value to ensure accurate querying even if it's out of the scope of this project. For instance, if the wheelchair toggle is turned off, it means the user is indifferent about whether the meeting is wheelchair accessible or not so the query should return both wheelchair `true` and `false` values, but if it's toggled on, the query should return `true` value. Toggling off is not the opposite of `true`.
 
 
-
-```javascript
-str.replace(/[\\"']/g, '\\$&').replace(/\u0000/g, '\\0')
-```
-- I didn't automate a loop for the 10 zones because each zone has its own wonkiness. I did a visual scan for the output of each zone. For edge cases where programatical tweaks are more effective, code is updated accordingly. However, sometimes, it just makes more sense to make a quick change manually and directly to the file.
-- Once all 10 zones' data are collected, I combined them together in [week07_sql_combine.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_sql_combine.js).
-- I used the full list of addresses to fetch the full list of geocode in [week07_sql_geocode.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_sql_geocode.js).
-- Here I preserved the original addresses parsed from the data as `inputAddress` for the `addressCoordinates` table. I will use this field as the key to link back to the `groupAddresses` table. However, I would use `address`, cleaned and standardized from the geocode API as the actual address field for front end users to search and filter on.
-- At each step, check points were put into place (i.e., console.logging array lengths and spot checks) to make sure the data is returned completely without missing records or having duplicates.
-- Now everything is ready for writing into SQL.
-
-**Step 3**: Writing into SQL
-- Based on the diagram, I created three tables in the SQL database in [week07_create_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_create_sqltables.js).
-- Then I used template literals to write data into respective tables in [week07_fill_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_fill_sqltables.js) and checked the final result for each table in [week07_check_sqltables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_check_sqltables.js). The row counts of the tables match the lengths of the data arrays. 374 rows for `group` level data and 1206 rows for `meeting` level data are stored. 
-- Finally, I joined the three tables in SQL and returned a select query in [week07_sql_querytables.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week07/week07_sql_querytables.js).
-<img src="./sql_query.png" width="1000" alt="SQL Query">
+**Step 3**: Packaging HTML into templates
+- Once everything was tested, I removed the dummy data and formatted the html files into `handlebars` template txt files.
+- I created another simple landing template for the app landing page.
+- I ran the app and it functioned as desired. 
