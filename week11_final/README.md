@@ -68,4 +68,4 @@ It's also worth noting that I need to be careful with null value to ensure accur
 - I ran the app and it functioned as desired. I didn't spend too much time formatting the sites so the front end design is just for illustration purpose.
 
 <img src="./views/images/aa_screenshot.png" width="500" alt="AA Screenshot">
-<img src="./views/images/blog_screenshot.png" width="500" alt="Blog Screenshot>
+<img src="./views/images/blog_screenshot.png" width="500" alt="Blog Screenshot">
