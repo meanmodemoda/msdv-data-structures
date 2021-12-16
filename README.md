@@ -1,5 +1,5 @@
 # Introduction
-This is the summary documentation of my course study of Data Structures at Parsons' Data Visualization MS porgram in Fall 2021. Professor Hill guided us through the entire workflow of data processing in the backend.
+This is the summary documentation of my course study of Data Structures at Parsons' Data Visualization MS porgram in Fall 2021. Professor Hill guided us through the entire workflow of data processing in the backend environnment.
 
 - Extracting existing content from web
 - Data cleaning
