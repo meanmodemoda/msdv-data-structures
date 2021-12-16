@@ -65,4 +65,7 @@ It's also worth noting that I need to be careful with null value to ensure accur
 **Step 3**: Packaging HTML into templates
 - Once everything was tested, I removed the dummy data and formatted the html files into `handlebars` template txt files.
 - I created another simple landing template for the app landing page.
-- I ran the app and it functioned as desired. 
+- I ran the app and it functioned as desired. I didn't spend too much time formatting the sites so the front end design is just for illustration purpose.
+
+<img src="./aa_screenshot.png" width="500" alt="AA Screenshot">
+<img src="./blog_screenshot.png" width="500" alt="Blog Screenshot>
