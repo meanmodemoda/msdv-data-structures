@@ -1,7 +1,16 @@
 # Introduction
-This is an ongoing documentation of my course progress of Data Structures taken during my study at Parsons' Data Visualization MS porgram in Fall 2021.
+This is the summary documentation of my course study of Data Structures at Parsons' Data Visualization MS porgram in Fall 2021. Professor Hill guided us through the entire workflow of data processing in the backend.
 
-## Current Progress
+- Extracting existing content from web
+- Data cleaning
+- Fetching data via API
+- SQL and NoSQL database schema design
+- Setting up SQL(RDS) and NoSQL(DynamoDB) databases via AWS
+- Writing data into SQL and NoSQL databases
+- Send query data using `express` to databases
+- Surface query output and package web content
+
+## Weekly Progress
 
 [**Week 1**](https://github.com/meanmodemoda/msdv-data-structures/tree/master/week01) - Use Node.js `got` method to extract html body content of 10 Manhattan AA meeting links and save them into text files. Create a loop to loop through the urls and save the text files accordingly. 
 
