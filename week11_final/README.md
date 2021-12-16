@@ -14,7 +14,7 @@ Create an application that queries both RDS and NoSQL databases and displays que
 
 I broke down the starter code into sections and constructed the `aa meeting` and `process blog` html docs and tested them in local environment. 
 
-The original test files are saved in [week11_draft_userinput]() folder.
+The original test files are saved in [week11_draft_userinput](https://github.com/meanmodemoda/msdv-data-structures/tree/master/week11_draft_userinput) folder.
 
 **Step 2**: Send query requests to RDS and NoSQL databases.
 
