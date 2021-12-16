@@ -27,7 +27,7 @@ for (let i=0; i<data.length; i++) {
     L.marker([data[i].lat, data[i].long]).bindPopup(createTooltip(data[i].meetings)).addTo(mymap);
 }
 ```
-The createTooltip function returns the nested meeting info for each `lang` and `lat` pair.
+The `createTooltip` function returns the nested meeting info for each `lang` and `lat` pair.
 
 ```
 function createTooltip (meetings) {
