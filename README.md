@@ -5,10 +5,10 @@ This is the summary documentation of my course study of Data Structures at Parso
 - Data cleaning
 - Fetching data via API
 - SQL and NoSQL database schema design
-- Setting up SQL(RDS) and NoSQL(DynamoDB) databases via AWS
+- Setting up SQL(RDS) and NoSQL(DynamoDB) databases in AWS
 - Writing data into SQL and NoSQL databases
-- Send query data using `express` to databases
-- Surface query output and package web content
+- Send query requests using `express` to databases
+- Surface query request output and package web content
 
 ## Weekly Progress
 
