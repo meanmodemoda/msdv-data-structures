@@ -69,5 +69,5 @@ It's also worth noting that I need to be careful with null value to ensure accur
 
 | AA Meeting Screenshot | Process Blog Screenshot |
 | ------------- | ------------- |
-| <img src="./views/images/aa.png" width="400" alt="AA Screenshot"> | <img src="./views/images/blog.png" width="400" alt="Blog Screenshot">|
+| <img src="./views/images/aa.png" width="400" alt="AA Screenshot"> | <img src="./views/images/blog_screenshot.png" width="400" alt="Blog Screenshot">|
 
