@@ -7,8 +7,8 @@ This is the summary documentation of my course study of Data Structures at Parso
 - SQL and NoSQL database schema design
 - Setting up SQL(RDS) and NoSQL(DynamoDB) databases in AWS
 - Writing data into SQL and NoSQL databases
-- Send query requests using `express` to databases
-- Surface query request output and package web content
+- Sending query requests using `express` to databases
+- Surfacing query request output and packaging web content using templates
 
 ## Weekly Progress
 
