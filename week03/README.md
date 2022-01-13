@@ -63,7 +63,7 @@ Based on the required structure of the final output, I created a loop to fill in
 
 **Step 4 :  Write the `addressUpdate` array into a JSON file**
 
-A stringified [JSON file](https://github.com/muonius/msdv-data-structures/blob/master/data/aa-m10-address-coordinates.json) was saved. I also created a [prettified version](https://github.com/muonius/msdv-data-structures/blob/master/data/jsonprettified.json) for eash reference. 
+A stringified [JSON file](https://github.com/muonius/msdv-data-structures/blob/master/data/aa-m01-address-coordinates.json) was saved. I also created a [prettified version](https://github.com/muonius/msdv-data-structures/blob/master/data/aa-m01-meeting-prettified.json) for eash reference. 
 
 ### Reflections
 
