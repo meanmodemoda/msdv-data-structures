@@ -2,7 +2,7 @@
 Create a schema design for a SQL database using the AA meeting data. 
 ##
 ### Assignment Details
-Populate dummy data tables with ALL the data from the first three rows of the AA zone (01) and save to an [Excel file](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/dummy_data.xlsx). Draw and upload a [database schema diagram](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week04/sql_diagram.png). 
+Populate dummy data tables with ALL the data from the first three rows of the AA zone (01) and save to an [Excel file](https://github.com/muonius/msdv-data-structures/blob/master/week04/dummy_data.xlsx). Draw and upload a [database schema diagram](https://github.com/muonius/msdv-data-structures/blob/master/week04/sql_diagram.png). 
 ##
 ### Process
 ###
