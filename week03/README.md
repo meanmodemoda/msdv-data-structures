@@ -1,6 +1,6 @@
 ## Summary
 
-Learn to use API to query, return and extract data. Extract the coordinates (`lat`,`lng`) of addresses saved in [aa-m01-address.json](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m01-address.json) from [Weekly Assignment 2](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week02/week02.js) from [Texas A&M Geoservices Geocoding APIs](http://geoservices.tamu.edu/Services/Geocode/WebService/). 
+Learn to use API to query, return and extract data. Extract the coordinates (`lat`,`lng`) of addresses saved in [aa-m01-address.json](https://github.com/muonius/msdv-data-structures/blob/master/data/aa-m01-address.json) from [Weekly Assignment 2](https://github.com/muonius/msdv-data-structures/blob/master/week02/week02.js) from [Texas A&M Geoservices Geocoding APIs](http://geoservices.tamu.edu/Services/Geocode/WebService/). 
 <br />
 
 ### Assignment Details
@@ -63,7 +63,7 @@ Based on the required structure of the final output, I created a loop to fill in
 
 **Step 4 :  Write the `addressUpdate` array into a JSON file**
 
-A stringified [JSON file](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/aa-m10-address-coordinates.json) was saved. I also created a [prettified version](https://github.com/meanmodemoda/msdv-data-structures/blob/master/data/jsonprettified.json) for eash reference. 
+A stringified [JSON file](https://github.com/muonius/msdv-data-structures/blob/master/data/aa-m10-address-coordinates.json) was saved. I also created a [prettified version](https://github.com/muonius/msdv-data-structures/blob/master/data/jsonprettified.json) for eash reference. 
 
 ### Reflections
 
