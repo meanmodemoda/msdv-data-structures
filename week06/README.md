@@ -9,7 +9,7 @@ Write queries in both PostgreSQL and NoSQL databases and populate results.
 ##
 ### PostgreSQL
 ###
-In [week06_sql.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week06/week06_sql.js), I wrote a SQL query that joins `meetings` and `aalocations` tables and only show `Open Discussion` type of meetings on Mondays, and it populates the following results.
+In [week06_sql.js](https://github.com/muonius/msdv-data-structures/blob/master/week06/week06_sql.js), I wrote a SQL query that joins `meetings` and `aalocations` tables and only show `Open Discussion` type of meetings on Mondays, and it populates the following results.
 
 ```javascript
 var thisQuery = "SELECT m.gid, m.mtgday, m.mtgstart, m.mtgend, m.mtgtype, l.address FROM aalocations l LEFT JOIN meetings m ON l.gid = m.gid WHERE m.mtgday = 'Monday' and m.mtgtype = 'OD';";
@@ -19,14 +19,14 @@ var thisQuery = "SELECT m.gid, m.mtgday, m.mtgstart, m.mtgend, m.mtgtype, l.addr
 
 ### NoSQL DynamoDB 
 
-To get more clarity on data structure, I created a wireframe of the `dealblog` first. Based on the wireframe, I refined my data structure further as updated in [week05.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week05_02/week05.js).
+To get more clarity on data structure, I created a wireframe of the `dealblog` first. Based on the wireframe, I refined my data structure further as updated in [week05.js](https://github.com/muonius/msdv-data-structures/blob/master/week05_02/week05.js).
 
 ###
 <img src="./NoSQL_wireframe.png" width="800" alt="NoSQL wireframe">
 
 ###
 
-In [week06_nosql.js](https://github.com/meanmodemoda/msdv-data-structures/blob/master/week06/week06_nosql.js), I queried blog entries that are related to the `apparel` industry between two specific dates, and it populates the following results.
+In [week06_nosql.js](https://github.com/muonius/msdv-data-structures/blob/master/week06/week06_nosql.js), I queried blog entries that are related to the `apparel` industry between two specific dates, and it populates the following results.
 
 
 ```javascript
